@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PL_ProvidenceSettingAboutVC">
+            <connections>
+                <outlet property="pf_img" destination="sh3-IV-e8w" id="78e-Sl-Xdh"/>
+                <outlet property="pf_versionLabel" destination="kqA-r3-hEk" id="1l8-zD-RxL"/>
+                <outlet property="versionButton" destination="EPj-we-J0T" id="FLc-bG-i2G"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_pf_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="sh3-IV-e8w">
+                    <rect key="frame" x="147" y="164" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="Lym-3H-wjf"/>
+                        <constraint firstAttribute="height" constant="120" id="bPo-pi-mfF"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPj-we-J0T">
+                    <rect key="frame" x="20" y="364" width="374" height="44"/>
+                    <color key="backgroundColor" red="0.97647058819999999" green="0.069258284779999998" blue="0.14423837810000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Eco-S9-G3d"/>
+                    </constraints>
+                    <state key="normal" title="已经是最新版本">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqA-r3-hEk">
+                    <rect key="frame" x="25" y="307" width="359" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="K7b-8c-5Gu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="sh3-IV-e8w" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3lH-Aw-blE"/>
+                <constraint firstItem="EPj-we-J0T" firstAttribute="top" secondItem="sh3-IV-e8w" secondAttribute="bottom" constant="80" id="4Xq-Aq-uxx"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="EPj-we-J0T" secondAttribute="trailing" constant="20" id="9Mh-Qr-jDy"/>
+                <constraint firstItem="EPj-we-J0T" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="9xi-Af-GL2"/>
+                <constraint firstItem="kqA-r3-hEk" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="25" id="AEa-yI-ra9"/>
+                <constraint firstItem="kqA-r3-hEk" firstAttribute="top" secondItem="sh3-IV-e8w" secondAttribute="bottom" constant="23" id="Q45-uL-klu"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="kqA-r3-hEk" secondAttribute="trailing" constant="30" id="TjM-0M-tjL"/>
+                <constraint firstItem="sh3-IV-e8w" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="120" id="kJa-S6-BPV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="72.799999999999997" y="39.90147783251232"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_pf_logo.png" width="60" height="60"/>
+    </resources>
+</document>

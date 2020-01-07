@@ -1,0 +1,2066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A31ECFA2398A34D00DCCAC1 /* UITextView+PL_Providence.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A31ECF92398A34D00DCCAC1 /* UITextView+PL_Providence.m */; };
+		9A31ED582398F8AC00DCCAC1 /* PL_ProvidenceDealCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A31ED552398F8AC00DCCAC1 /* PL_ProvidenceDealCollectionViewCell.m */; };
+		9A31ED592398F8AC00DCCAC1 /* PL_ProvidenceDealCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A31ED572398F8AC00DCCAC1 /* PL_ProvidenceDealCollectionViewCell.xib */; };
+		9A31ED5D239911C200DCCAC1 /* PL_ProvidenceDealDyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A31ED5A239911C200DCCAC1 /* PL_ProvidenceDealDyCell.m */; };
+		9A31ED5E239911C200DCCAC1 /* PL_ProvidenceDealDyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A31ED5B239911C200DCCAC1 /* PL_ProvidenceDealDyCell.xib */; };
+		9A4D722023A1E817008A624C /* iPhone_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4D721F23A1E817008A624C /* iPhone_2.jpeg */; };
+		9A7AFACF23974A4300C48D13 /* PL_ProvidenceHomeReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFACC23974A4300C48D13 /* PL_ProvidenceHomeReusableView.m */; };
+		9A7AFAD023974A4300C48D13 /* PL_ProvidenceHomeReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFACE23974A4300C48D13 /* PL_ProvidenceHomeReusableView.xib */; };
+		9A7AFAD323975D2D00C48D13 /* PL_ProvidenceFavDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFAD223975D2D00C48D13 /* PL_ProvidenceFavDBManager.m */; };
+		9A7AFAD623975E3A00C48D13 /* PL_ProvidenceHomeTheNewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFAD523975E3A00C48D13 /* PL_ProvidenceHomeTheNewModel.m */; };
+		9A7AFADB2397669F00C48D13 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFADA2397669F00C48D13 /* GTMBase64.m */; };
+		9A7AFAFE23978D7100C48D13 /* PL_ProvidenceDealTodayTradeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFADF23978D6E00C48D13 /* PL_ProvidenceDealTodayTradeVC.m */; };
+		9A7AFAFF23978D7100C48D13 /* PL_ProvidenceDealSellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFAE023978D6F00C48D13 /* PL_ProvidenceDealSellViewController.m */; };
+		9A7AFB0023978D7100C48D13 /* PL_ProvidenceDealMoneyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFAE523978D6F00C48D13 /* PL_ProvidenceDealMoneyVC.xib */; };
+		9A7AFB0223978D7100C48D13 /* PL_ProvidenceDealVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFAEA23978D6F00C48D13 /* PL_ProvidenceDealVC.xib */; };
+		9A7AFB0323978D7100C48D13 /* PL_ProvidenceDealVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFAEC23978D6F00C48D13 /* PL_ProvidenceDealVC.m */; };
+		9A7AFB0623978D7100C48D13 /* PL_ProvidenceDealBuyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFAF023978D7000C48D13 /* PL_ProvidenceDealBuyController.m */; };
+		9A7AFB0B23978D7100C48D13 /* PL_ProvidenceDealModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFAF523978D7000C48D13 /* PL_ProvidenceDealModel.m */; };
+		9A7AFB0E23978D7100C48D13 /* PL_ProvidenceDealHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFAF823978D7100C48D13 /* PL_ProvidenceDealHistoryController.m */; };
+		9A7AFB0F23978D7100C48D13 /* PL_ProvidenceDealMoneyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFAF923978D7100C48D13 /* PL_ProvidenceDealMoneyVC.m */; };
+		9A7AFB1423978E7300C48D13 /* PL_ProvidenceDealDyTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB1323978E7300C48D13 /* PL_ProvidenceDealDyTopView.m */; };
+		9A7AFB1823978E8C00C48D13 /* PL_ProvidenceDealTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB1623978E8C00C48D13 /* PL_ProvidenceDealTopCell.m */; };
+		9A7AFB1923978E8C00C48D13 /* PL_ProvidenceDealTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFB1723978E8C00C48D13 /* PL_ProvidenceDealTopCell.xib */; };
+		9A7AFB2D23979B6000C48D13 /* PL_ProvidenceHomeOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB1F23979B5F00C48D13 /* PL_ProvidenceHomeOptionView.m */; };
+		9A7AFB2E23979B6000C48D13 /* PL_ProvidenceHomeFormHorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB2023979B6000C48D13 /* PL_ProvidenceHomeFormHorView.m */; };
+		9A7AFB2F23979B6000C48D13 /* PL_ProvidenceStepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB2323979B6000C48D13 /* PL_ProvidenceStepperView.m */; };
+		9A7AFB3023979B6000C48D13 /* PL_ProvidenceHomeDealView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB2423979B6000C48D13 /* PL_ProvidenceHomeDealView.m */; };
+		9A7AFB3123979B6000C48D13 /* PL_ProvidenceHomeStockParticularsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB2623979B6000C48D13 /* PL_ProvidenceHomeStockParticularsView.m */; };
+		9A7AFB3223979B6000C48D13 /* PL_ProvidenceHomeStockOptionTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB2823979B6000C48D13 /* PL_ProvidenceHomeStockOptionTopView.m */; };
+		9A7AFB3323979B6000C48D13 /* PL_ProvidenceHomeOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB2B23979B6000C48D13 /* PL_ProvidenceHomeOptionCell.m */; };
+		9A7AFB3623979CAF00C48D13 /* PL_ProvidencePaperModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB3523979CAF00C48D13 /* PL_ProvidencePaperModel.m */; };
+		9A7AFB382397A82000C48D13 /* launch_bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFB372397A82000C48D13 /* launch_bg.jpeg */; };
+		9A7AFB3A2397A84A00C48D13 /* icon_pf_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFB392397A84900C48D13 /* icon_pf_logo@3x.png */; };
+		9A7AFB522397ABD900C48D13 /* PL_ProvidenceSettingAgreeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFB3C2397ABD800C48D13 /* PL_ProvidenceSettingAgreeVC.xib */; };
+		9A7AFB542397ABD900C48D13 /* PL_ProvidenceSettingAgreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB412397ABD800C48D13 /* PL_ProvidenceSettingAgreeVC.m */; };
+		9A7AFB562397ABD900C48D13 /* PL_ProvidenceSettingSignVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB432397ABD800C48D13 /* PL_ProvidenceSettingSignVC.m */; };
+		9A7AFB582397ABD900C48D13 /* PL_ProvidenceSettingAboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB452397ABD800C48D13 /* PL_ProvidenceSettingAboutVC.m */; };
+		9A7AFB592397ABD900C48D13 /* PL_ProvidenceSettingSignVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFB462397ABD800C48D13 /* PL_ProvidenceSettingSignVC.xib */; };
+		9A7AFB5D2397ABD900C48D13 /* PL_ProvidenceSettingAboutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFB4D2397ABD900C48D13 /* PL_ProvidenceSettingAboutVC.xib */; };
+		9A7AFB6C2397ADB500C48D13 /* PL_ProvidenceSettingTickVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFB622397ADB400C48D13 /* PL_ProvidenceSettingTickVC.xib */; };
+		9A7AFB6D2397ADB500C48D13 /* PL_ProvidenceSettingNameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFB632397ADB400C48D13 /* PL_ProvidenceSettingNameVC.xib */; };
+		9A7AFB6E2397ADB500C48D13 /* PL_ProvidenceSettingChangePassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB642397ADB400C48D13 /* PL_ProvidenceSettingChangePassVC.m */; };
+		9A7AFB6F2397ADB500C48D13 /* PL_ProvidenceSettingChangePassVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFB652397ADB400C48D13 /* PL_ProvidenceSettingChangePassVC.xib */; };
+		9A7AFB702397ADB500C48D13 /* PL_ProvidenceSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB662397ADB400C48D13 /* PL_ProvidenceSettingVC.m */; };
+		9A7AFB712397ADB500C48D13 /* PL_ProvidenceSettingTickVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB682397ADB400C48D13 /* PL_ProvidenceSettingTickVC.m */; };
+		9A7AFB722397ADB500C48D13 /* PL_ProvidenceSettingNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB6A2397ADB400C48D13 /* PL_ProvidenceSettingNameVC.m */; };
+		9A7AFB762397AEB600C48D13 /* PL_ProvidenceSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AFB742397AEB600C48D13 /* PL_ProvidenceSettingCell.xib */; };
+		9A7AFB772397AEB600C48D13 /* PL_ProvidenceSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB752397AEB600C48D13 /* PL_ProvidenceSettingCell.m */; };
+		9A7AFB802397B05D00C48D13 /* PL_ProvidenceBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB782397B05D00C48D13 /* PL_ProvidenceBaseVC.m */; };
+		9A7AFB812397B05D00C48D13 /* PL_ProvidenceNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB792397B05D00C48D13 /* PL_ProvidenceNavigationVC.m */; };
+		9A7AFB822397B05D00C48D13 /* PL_ProvidenceTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB7D2397B05D00C48D13 /* PL_ProvidenceTabVC.m */; };
+		9A7AFB832397B05D00C48D13 /* PL_ProvidenceDealManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB7F2397B05D00C48D13 /* PL_ProvidenceDealManager.m */; };
+		9A7AFB872397B70600C48D13 /* PL_ProvidenceHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AFB842397B70600C48D13 /* PL_ProvidenceHttpRequest.m */; };
+		9A84048A2395F3C200EC0B39 /* PL_ProvidenceHomeBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84045D2395F3C000EC0B39 /* PL_ProvidenceHomeBaseView.m */; };
+		9A84048C2395F3C200EC0B39 /* PL_ProvidenceHomeStockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404612395F3C000EC0B39 /* PL_ProvidenceHomeStockCell.m */; };
+		9A84048D2395F3C200EC0B39 /* PL_ProvidenceHomeTabControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404622395F3C000EC0B39 /* PL_ProvidenceHomeTabControlView.m */; };
+		9A84048F2395F3C200EC0B39 /* PL_ProvidenceHomeStockTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404682395F3C000EC0B39 /* PL_ProvidenceHomeStockTopCell.m */; };
+		9A8404902395F3C200EC0B39 /* PL_ProvidenceHomeTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404692395F3C000EC0B39 /* PL_ProvidenceHomeTopView.m */; };
+		9A8404912395F3C200EC0B39 /* PL_ProvidenceHomeStockTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A84046B2395F3C000EC0B39 /* PL_ProvidenceHomeStockTopCell.xib */; };
+		9A8404922395F3C200EC0B39 /* PL_ProvidenceHomeStockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84046F2395F3C100EC0B39 /* PL_ProvidenceHomeStockView.m */; };
+		9A8404932395F3C200EC0B39 /* PL_ProvidenceHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404702395F3C100EC0B39 /* PL_ProvidenceHomeCell.m */; };
+		9A8404992395F3C200EC0B39 /* PL_ProvidenceBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84047B2395F3C100EC0B39 /* PL_ProvidenceBaseButton.m */; };
+		9A84049A2395F3C200EC0B39 /* PL_ProvidenceBaseButtonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84047C2395F3C100EC0B39 /* PL_ProvidenceBaseButtonConfig.m */; };
+		9A84049F2395F3C200EC0B39 /* PL_ProvidenceHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8404852395F3C200EC0B39 /* PL_ProvidenceHomeCell.xib */; };
+		9A8404A42395F79D00EC0B39 /* PL_ProvidenceDealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404A32395F79D00EC0B39 /* PL_ProvidenceDealController.m */; };
+		9A8404A82395F86B00EC0B39 /* PL_ProvidenceDealTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404A62395F86B00EC0B39 /* PL_ProvidenceDealTopView.m */; };
+		9A8404A92395F86B00EC0B39 /* PL_ProvidenceDealTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8404A72395F86B00EC0B39 /* PL_ProvidenceDealTopView.xib */; };
+		9A8404AD2396009800EC0B39 /* PL_ProvidenceDealMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404AB2396009800EC0B39 /* PL_ProvidenceDealMenuCell.m */; };
+		9A8404AE2396009800EC0B39 /* PL_ProvidenceDealMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8404AC2396009800EC0B39 /* PL_ProvidenceDealMenuCell.xib */; };
+		9A8404B2239601E000EC0B39 /* PL_ProvidenceDealNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404B0239601E000EC0B39 /* PL_ProvidenceDealNameCell.m */; };
+		9A8404B3239601E000EC0B39 /* PL_ProvidenceDealNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8404B1239601E000EC0B39 /* PL_ProvidenceDealNameCell.xib */; };
+		9A8404B7239603D800EC0B39 /* PL_ProvidenceDealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404B5239603D800EC0B39 /* PL_ProvidenceDealCell.m */; };
+		9A8404B8239603D800EC0B39 /* PL_ProvidenceDealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8404B6239603D800EC0B39 /* PL_ProvidenceDealCell.xib */; };
+		9A8404BB23963EFB00EC0B39 /* PL_ProvidenceHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404BA23963EFB00EC0B39 /* PL_ProvidenceHomeController.m */; };
+		9A8404C023963F9100EC0B39 /* PL_ProvidenceHomeNewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404BE23963F9100EC0B39 /* PL_ProvidenceHomeNewCell.m */; };
+		9A8404C123963F9100EC0B39 /* PL_ProvidenceHomeNewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8404BF23963F9100EC0B39 /* PL_ProvidenceHomeNewCell.xib */; };
+		9A8404C5239641D100EC0B39 /* PL_ProvidenceHomeBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404C3239641D100EC0B39 /* PL_ProvidenceHomeBannerCell.m */; };
+		9A8404C6239641D100EC0B39 /* PL_ProvidenceHomeBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8404C4239641D100EC0B39 /* PL_ProvidenceHomeBannerCell.xib */; };
+		9A8404CA2396420000EC0B39 /* PL_ProvidenceHomeMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404C82396420000EC0B39 /* PL_ProvidenceHomeMenuCell.m */; };
+		9A8404CB2396420000EC0B39 /* PL_ProvidenceHomeMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8404C92396420000EC0B39 /* PL_ProvidenceHomeMenuCell.xib */; };
+		9A8404CF23964CC800EC0B39 /* PL_ProvidenceStockHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404CD23964CC800EC0B39 /* PL_ProvidenceStockHeadCell.m */; };
+		9A8404D023964CC800EC0B39 /* PL_ProvidenceStockHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8404CE23964CC800EC0B39 /* PL_ProvidenceStockHeadCell.xib */; };
+		9A8404D723964E6E00EC0B39 /* PL_ProvidenceHomrStockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404D523964E6E00EC0B39 /* PL_ProvidenceHomrStockCell.m */; };
+		9A8404D823964E6E00EC0B39 /* PL_ProvidenceHomrStockCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8404D623964E6E00EC0B39 /* PL_ProvidenceHomrStockCell.xib */; };
+		9A8404E623964ED400EC0B39 /* PL_ProvidenceHomeFutureHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8404E423964ED400EC0B39 /* PL_ProvidenceHomeFutureHeadCell.m */; };
+		9A8404E723964ED400EC0B39 /* PL_ProvidenceHomeFutureHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8404E523964ED400EC0B39 /* PL_ProvidenceHomeFutureHeadCell.xib */; };
+		9A87C5482395113500DE5B23 /* ProvidenceFuturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5472395113500DE5B23 /* ProvidenceFuturesTests.m */; };
+		9A87C5532395113500DE5B23 /* ProvidenceFuturesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5522395113500DE5B23 /* ProvidenceFuturesUITests.m */; };
+		9A87C6D72395121900DE5B23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5612395121800DE5B23 /* main.m */; };
+		9A87C6D82395121900DE5B23 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A87C5632395121900DE5B23 /* Info.plist */; };
+		9A87C6D92395121900DE5B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A87C5642395121900DE5B23 /* LaunchScreen.storyboard */; };
+		9A87C6DA2395121900DE5B23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5652395121900DE5B23 /* AppDelegate.m */; };
+		9A87C6E52395121900DE5B23 /* PL_ProvidenceHomeScreenLoadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5832395121900DE5B23 /* PL_ProvidenceHomeScreenLoadVC.m */; };
+		9A87C6E62395121900DE5B23 /* PL_ProvidenceHomeInfoDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5842395121900DE5B23 /* PL_ProvidenceHomeInfoDetailsVC.m */; };
+		9A87C6E72395121900DE5B23 /* PL_ProvidenceHomeTheNewDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5852395121900DE5B23 /* PL_ProvidenceHomeTheNewDetailVC.m */; };
+		9A87C6E82395121900DE5B23 /* PL_ProvidenceHomeTheNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5862395121900DE5B23 /* PL_ProvidenceHomeTheNewVC.m */; };
+		9A87C6E92395121900DE5B23 /* PL_ProvidenceHomeStockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5872395121900DE5B23 /* PL_ProvidenceHomeStockVC.m */; };
+		9A87C6ED2395121900DE5B23 /* PL_ProvidenceHomeStockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5902395121900DE5B23 /* PL_ProvidenceHomeStockModel.m */; };
+		9A87C6EE2395121900DE5B23 /* PL_ProvidenceHomeOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5942395121900DE5B23 /* PL_ProvidenceHomeOrderModel.m */; };
+		9A87C6EF2395121900DE5B23 /* PL_ProvidenceHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5962395121900DE5B23 /* PL_ProvidenceHomeModel.m */; };
+		9A87C6F02395121A00DE5B23 /* PL_ProvidenceMarketLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5992395121900DE5B23 /* PL_ProvidenceMarketLogic.m */; };
+		9A87C6F12395121A00DE5B23 /* PL_ProvidenceHomeStockTopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C59A2395121900DE5B23 /* PL_ProvidenceHomeStockTopModel.m */; };
+		9A87C6F22395121A00DE5B23 /* PL_ProvidenceHomeStockTradeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C59C2395121900DE5B23 /* PL_ProvidenceHomeStockTradeModel.m */; };
+		9A87C70B2395121A00DE5B23 /* PL_ProvidenceHomeMenuFuturesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5CC2395121900DE5B23 /* PL_ProvidenceHomeMenuFuturesView.m */; };
+		9A87C70C2395121A00DE5B23 /* PL_ProvidenceHomeMenuFuturesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5CF2395121900DE5B23 /* PL_ProvidenceHomeMenuFuturesVC.m */; };
+		9A87C7212395121A00DE5B23 /* PL_ProvidencePaperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5F52395121900DE5B23 /* PL_ProvidencePaperCell.m */; };
+		9A87C7222395121A00DE5B23 /* PL_ProvidencePaperDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5F62395121900DE5B23 /* PL_ProvidencePaperDetailVC.m */; };
+		9A87C7232395121A00DE5B23 /* PL_ProvidencePaperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C5F72395121900DE5B23 /* PL_ProvidencePaperVC.m */; };
+		9A87C7242395121A00DE5B23 /* PL_ProvidencePaperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A87C5FA2395121900DE5B23 /* PL_ProvidencePaperCell.xib */; };
+		9A87C73A2395121A00DE5B23 /* PL_ProvidenceRegisteredVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A87C6272395121900DE5B23 /* PL_ProvidenceRegisteredVC.xib */; };
+		9A87C73B2395121A00DE5B23 /* PL_ProvidenceLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C62A2395121900DE5B23 /* PL_ProvidenceLoginManager.m */; };
+		9A87C73C2395121A00DE5B23 /* PL_ProvidenceRegisteredVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C62B2395121900DE5B23 /* PL_ProvidenceRegisteredVC.m */; };
+		9A87C73D2395121A00DE5B23 /* PL_ProvidenceLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A87C62D2395121900DE5B23 /* PL_ProvidenceLoginVC.xib */; };
+		9A87C73E2395121A00DE5B23 /* PL_ProvidenceLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C62E2395121900DE5B23 /* PL_ProvidenceLoginVC.m */; };
+		9A87C73F2395121A00DE5B23 /* PL_ProvidenceEnptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A87C6312395121900DE5B23 /* PL_ProvidenceEnptyView.xib */; };
+		9A87C7402395121A00DE5B23 /* PL_ProvidenceDealDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6342395121900DE5B23 /* PL_ProvidenceDealDataManager.m */; };
+		9A87C7412395121A00DE5B23 /* PL_ProvidenceWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6352395121900DE5B23 /* PL_ProvidenceWebViewController.m */; };
+		9A87C7422395121A00DE5B23 /* PL_ProvidenceEnptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6362395121900DE5B23 /* PL_ProvidenceEnptyView.m */; };
+		9A87C7432395121A00DE5B23 /* PL_ProvidenceDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6372395121900DE5B23 /* PL_ProvidenceDataManager.m */; };
+		9A87C7442395121A00DE5B23 /* PL_ProvidenceIndentTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6382395121900DE5B23 /* PL_ProvidenceIndentTextField.m */; };
+		9A87C7452395121A00DE5B23 /* PL_ProvidenceDateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6392395121900DE5B23 /* PL_ProvidenceDateManager.m */; };
+		9A87C7462395121A00DE5B23 /* PL_ProvidenceDataUsedEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C63A2395121900DE5B23 /* PL_ProvidenceDataUsedEngine.m */; };
+		9A87C7472395121A00DE5B23 /* PL_ProvidenceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C63B2395121900DE5B23 /* PL_ProvidenceTool.m */; };
+		9A87C74E2395121A00DE5B23 /* NSObject+SSJNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6562395121900DE5B23 /* NSObject+SSJNetWork.m */; };
+		9A87C74F2395121A00DE5B23 /* UIViewController+SSJNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6572395121900DE5B23 /* UIViewController+SSJNetWork.m */; };
+		9A87C7502395121A00DE5B23 /* NSString+SSJNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6582395121900DE5B23 /* NSString+SSJNetWork.m */; };
+		9A87C7512395121A00DE5B23 /* NSDictionary+SSJNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6592395121900DE5B23 /* NSDictionary+SSJNetWork.m */; };
+		9A87C7522395121A00DE5B23 /* UINavigationController+SSJNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C65D2395121900DE5B23 /* UINavigationController+SSJNetWork.m */; };
+		9A87C7532395121A00DE5B23 /* SSJMemCacheDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6622395121900DE5B23 /* SSJMemCacheDataCenter.m */; };
+		9A87C7542395121A00DE5B23 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 9A87C6642395121900DE5B23 /* .gitkeep */; };
+		9A87C7552395121A00DE5B23 /* NEHTTPEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6682395121900DE5B23 /* NEHTTPEyeViewController.m */; };
+		9A87C7562395121A00DE5B23 /* SSJLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6692395121900DE5B23 /* SSJLogManager.m */; };
+		9A87C7572395121A00DE5B23 /* SSJNetWorkLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C66B2395121900DE5B23 /* SSJNetWorkLogHelper.m */; };
+		9A87C7582395121A00DE5B23 /* NEHTTPEyeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C66C2395121900DE5B23 /* NEHTTPEyeDetailViewController.m */; };
+		9A87C7592395121A00DE5B23 /* NEHTTPModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6702395121900DE5B23 /* NEHTTPModelManager.m */; };
+		9A87C75A2395121A00DE5B23 /* SSJApiRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6732395121900DE5B23 /* SSJApiRequestManager.m */; };
+		9A87C75B2395121A00DE5B23 /* SSJNetWorkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6742395121900DE5B23 /* SSJNetWorkConfig.m */; };
+		9A87C75C2395121A00DE5B23 /* SSJNetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6782395121900DE5B23 /* SSJNetWorkHelper.m */; };
+		9A87C75D2395121A00DE5B23 /* SSJHTTPSessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6792395121900DE5B23 /* SSJHTTPSessionModel.m */; };
+		9A87C75E2395121A00DE5B23 /* SSJApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C67C2395121900DE5B23 /* SSJApiProxy.m */; };
+		9A87C75F2395121A00DE5B23 /* SSUploadTaskRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C67E2395121900DE5B23 /* SSUploadTaskRequest.m */; };
+		9A87C7602395121A00DE5B23 /* SSJURLRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6812395121900DE5B23 /* SSJURLRequestManager.m */; };
+		9A87C7612395121A00DE5B23 /* SSJNetworkRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6822395121900DE5B23 /* SSJNetworkRequestConfig.m */; };
+		9A87C7622395121A00DE5B23 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 9A87C6842395121900DE5B23 /* .gitkeep */; };
+		9A87C7632395121A00DE5B23 /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C68A2395121900DE5B23 /* DataCenter.m */; };
+		9A87C7642395121A00DE5B23 /* PL_ProvidenceLineDataLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C68D2395121900DE5B23 /* PL_ProvidenceLineDataLogic.m */; };
+		9A87C7652395121A00DE5B23 /* PL_ProvidenceLineIndicatorLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C68E2395121900DE5B23 /* PL_ProvidenceLineIndicatorLogic.m */; };
+		9A87C7662395121A00DE5B23 /* PL_ProvidenceLineVolViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6932395121900DE5B23 /* PL_ProvidenceLineVolViewConfig.m */; };
+		9A87C7672395121A00DE5B23 /* PL_ProvidenceLineViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6962395121900DE5B23 /* PL_ProvidenceLineViewConfig.m */; };
+		9A87C7682395121A00DE5B23 /* NSNumber+StringFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6982395121900DE5B23 /* NSNumber+StringFormatter.m */; };
+		9A87C7692395121A00DE5B23 /* NSValue+GLExtremeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C69B2395121900DE5B23 /* NSValue+GLExtremeValue.m */; };
+		9A87C76A2395121A00DE5B23 /* PL_ProvidenceKLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C69D2395121900DE5B23 /* PL_ProvidenceKLineModel.m */; };
+		9A87C76B2395121A00DE5B23 /* PL_ProvidenceZSHKLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6A02395121900DE5B23 /* PL_ProvidenceZSHKLineView.m */; };
+		9A87C76C2395121A00DE5B23 /* PL_ProvidenceLineMADrawLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6A32395121900DE5B23 /* PL_ProvidenceLineMADrawLogic.m */; };
+		9A87C76D2395121A00DE5B23 /* PL_ProvidenceBaseDrawLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6A52395121900DE5B23 /* PL_ProvidenceBaseDrawLogic.m */; };
+		9A87C76E2395121A00DE5B23 /* PL_ProvidenceLineDrawLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6A92395121900DE5B23 /* PL_ProvidenceLineDrawLogic.m */; };
+		9A87C76F2395121A00DE5B23 /* PL_ProvidenceLineVolDrawLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6AB2395121900DE5B23 /* PL_ProvidenceLineVolDrawLogic.m */; };
+		9A87C7702395121A00DE5B23 /* PL_ProvidenceLineBGDrawLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6AE2395121900DE5B23 /* PL_ProvidenceLineBGDrawLogic.m */; };
+		9A87C7712395121A00DE5B23 /* PL_ProvidenceLineVolMADrawLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6B12395121900DE5B23 /* PL_ProvidenceLineVolMADrawLogic.m */; };
+		9A87C7722395121A00DE5B23 /* PL_ProvidenceLineMACDDrawLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6B42395121900DE5B23 /* PL_ProvidenceLineMACDDrawLogic.m */; };
+		9A87C7732395121A00DE5B23 /* PL_ProvidenceLineKDJDrawLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6B52395121900DE5B23 /* PL_ProvidenceLineKDJDrawLogic.m */; };
+		9A87C7742395121A00DE5B23 /* PL_ProvidenceLineRSIDrawLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6B62395121900DE5B23 /* PL_ProvidenceLineRSIDrawLogic.m */; };
+		9A87C7752395121A00DE5B23 /* PL_ProvidenceLineTimeDrawLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6B82395121900DE5B23 /* PL_ProvidenceLineTimeDrawLogic.m */; };
+		9A87C7762395121A00DE5B23 /* PL_ProvidenceLineBOLLDrawLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6B92395121900DE5B23 /* PL_ProvidenceLineBOLLDrawLogic.m */; };
+		9A87C7772395121A00DE5B23 /* PL_ProvidenceConstantDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6BB2395121900DE5B23 /* PL_ProvidenceConstantDefinition.m */; };
+		9A87C7782395121A00DE5B23 /* PL_ProvidenceDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6C02395121900DE5B23 /* PL_ProvidenceDataCenter.m */; };
+		9A87C7792395121A00DE5B23 /* PL_ProvidenceFullScreenKLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6C32395121900DE5B23 /* PL_ProvidenceFullScreenKLineView.m */; };
+		9A87C77A2395121A00DE5B23 /* PL_ProvidenceSimpleKLineVolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6C42395121900DE5B23 /* PL_ProvidenceSimpleKLineVolView.m */; };
+		9A87C77B2395121A00DE5B23 /* PL_ProvidenceLineDataProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6C92395121900DE5B23 /* PL_ProvidenceLineDataProcess.m */; };
+		9A87C77C2395121A00DE5B23 /* PL_ProvidenceListMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6CC2395121900DE5B23 /* PL_ProvidenceListMenuView.m */; };
+		9A87C77D2395121A00DE5B23 /* PL_ProvidenceVerticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6CE2395121900DE5B23 /* PL_ProvidenceVerticalView.m */; };
+		9A87C77E2395121A00DE5B23 /* PL_ProvidenceHorizontalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C6D12395121900DE5B23 /* PL_ProvidenceHorizontalView.m */; };
+		9A87C7802395121A00DE5B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A87C6D42395121900DE5B23 /* Assets.xcassets */; };
+		9A87C7812395121A00DE5B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A87C6D62395121900DE5B23 /* Main.storyboard */; };
+		9A87C784239515E700DE5B23 /* PL_Providence_user_protocol.html in Resources */ = {isa = PBXBuildFile; fileRef = 9A87C783239515E700DE5B23 /* PL_Providence_user_protocol.html */; };
+		9A87C7992395167D00DE5B23 /* NSObject+PL_Providence.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C7892395167C00DE5B23 /* NSObject+PL_Providence.m */; };
+		9A87C79A2395167D00DE5B23 /* NSString+PL_Providence.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C78A2395167C00DE5B23 /* NSString+PL_Providence.m */; };
+		9A87C79B2395167D00DE5B23 /* UIAlertView+PL_Providence.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C78B2395167D00DE5B23 /* UIAlertView+PL_Providence.m */; };
+		9A87C79C2395167D00DE5B23 /* UIView+PL_Providence.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C78C2395167D00DE5B23 /* UIView+PL_Providence.m */; };
+		9A87C79D2395167D00DE5B23 /* NSNumber+PL_Providence.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C78E2395167D00DE5B23 /* NSNumber+PL_Providence.m */; };
+		9A87C79E2395167D00DE5B23 /* UIColor+PL_Providence.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C7902395167D00DE5B23 /* UIColor+PL_Providence.m */; };
+		9A87C79F2395167D00DE5B23 /* UIFont+PL_Providence.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C7912395167D00DE5B23 /* UIFont+PL_Providence.m */; };
+		9A87C7A02395167D00DE5B23 /* UIImage+PL_Providence.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C7942395167D00DE5B23 /* UIImage+PL_Providence.m */; };
+		9A87C7A12395167D00DE5B23 /* MBProgressHUD+PL_Providence.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C7962395167D00DE5B23 /* MBProgressHUD+PL_Providence.m */; };
+		9A87C7A22395167D00DE5B23 /* UIActionSheet+PL_Providence.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87C7982395167D00DE5B23 /* UIActionSheet+PL_Providence.m */; };
+		B009C94161AE1145537A380F /* Pods_ProvidenceFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3995F326B8B2F2E726FB3256 /* Pods_ProvidenceFutures.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A87C5442395113500DE5B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A87C5202395113100DE5B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A87C5272395113100DE5B23;
+			remoteInfo = ProvidenceFutures;
+		};
+		9A87C54F2395113500DE5B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A87C5202395113100DE5B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A87C5272395113100DE5B23;
+			remoteInfo = ProvidenceFutures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16F0248B81120A317D9E5BBA /* Pods-ProvidenceFutures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProvidenceFutures.debug.xcconfig"; path = "Target Support Files/Pods-ProvidenceFutures/Pods-ProvidenceFutures.debug.xcconfig"; sourceTree = "<group>"; };
+		3995F326B8B2F2E726FB3256 /* Pods_ProvidenceFutures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProvidenceFutures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6F21E7C9112DF408A17B98 /* Pods-ProvidenceFutures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProvidenceFutures.release.xcconfig"; path = "Target Support Files/Pods-ProvidenceFutures/Pods-ProvidenceFutures.release.xcconfig"; sourceTree = "<group>"; };
+		9A31ECF82398A34D00DCCAC1 /* UITextView+PL_Providence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+PL_Providence.h"; sourceTree = "<group>"; };
+		9A31ECF92398A34D00DCCAC1 /* UITextView+PL_Providence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+PL_Providence.m"; sourceTree = "<group>"; };
+		9A31ED552398F8AC00DCCAC1 /* PL_ProvidenceDealCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealCollectionViewCell.m; sourceTree = "<group>"; };
+		9A31ED562398F8AC00DCCAC1 /* PL_ProvidenceDealCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealCollectionViewCell.h; sourceTree = "<group>"; };
+		9A31ED572398F8AC00DCCAC1 /* PL_ProvidenceDealCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceDealCollectionViewCell.xib; sourceTree = "<group>"; };
+		9A31ED5A239911C200DCCAC1 /* PL_ProvidenceDealDyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealDyCell.m; sourceTree = "<group>"; };
+		9A31ED5B239911C200DCCAC1 /* PL_ProvidenceDealDyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceDealDyCell.xib; sourceTree = "<group>"; };
+		9A31ED5C239911C200DCCAC1 /* PL_ProvidenceDealDyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealDyCell.h; sourceTree = "<group>"; };
+		9A4D721F23A1E817008A624C /* iPhone_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iPhone_2.jpeg; path = "../../../../未命名文件夹 2/iPhone_2.jpeg"; sourceTree = "<group>"; };
+		9A7AFACC23974A4300C48D13 /* PL_ProvidenceHomeReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeReusableView.m; sourceTree = "<group>"; };
+		9A7AFACD23974A4300C48D13 /* PL_ProvidenceHomeReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeReusableView.h; sourceTree = "<group>"; };
+		9A7AFACE23974A4300C48D13 /* PL_ProvidenceHomeReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceHomeReusableView.xib; sourceTree = "<group>"; };
+		9A7AFAD123975D2D00C48D13 /* PL_ProvidenceFavDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceFavDBManager.h; sourceTree = "<group>"; };
+		9A7AFAD223975D2D00C48D13 /* PL_ProvidenceFavDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceFavDBManager.m; sourceTree = "<group>"; };
+		9A7AFAD423975E3A00C48D13 /* PL_ProvidenceHomeTheNewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeTheNewModel.h; sourceTree = "<group>"; };
+		9A7AFAD523975E3A00C48D13 /* PL_ProvidenceHomeTheNewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeTheNewModel.m; sourceTree = "<group>"; };
+		9A7AFAD82397669F00C48D13 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		9A7AFAD92397669F00C48D13 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		9A7AFADA2397669F00C48D13 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		9A7AFADC23978D6E00C48D13 /* PL_ProvidenceDealHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PL_ProvidenceDealHistoryController.h; path = ../Fufures/PL_ProvidenceDealHistoryController.h; sourceTree = "<group>"; };
+		9A7AFADF23978D6E00C48D13 /* PL_ProvidenceDealTodayTradeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealTodayTradeVC.m; sourceTree = "<group>"; };
+		9A7AFAE023978D6F00C48D13 /* PL_ProvidenceDealSellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PL_ProvidenceDealSellViewController.m; path = ../Fufures/PL_ProvidenceDealSellViewController.m; sourceTree = "<group>"; };
+		9A7AFAE123978D6F00C48D13 /* PL_ProvidenceDealMoneyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PL_ProvidenceDealMoneyVC.h; path = ../Fufures/PL_ProvidenceDealMoneyVC.h; sourceTree = "<group>"; };
+		9A7AFAE223978D6F00C48D13 /* PL_ProvidenceDealSellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PL_ProvidenceDealSellViewController.h; path = ../Fufures/PL_ProvidenceDealSellViewController.h; sourceTree = "<group>"; };
+		9A7AFAE423978D6F00C48D13 /* PL_ProvidenceDealVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PL_ProvidenceDealVC.h; path = ../Fufures/PL_ProvidenceDealVC.h; sourceTree = "<group>"; };
+		9A7AFAE523978D6F00C48D13 /* PL_ProvidenceDealMoneyVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PL_ProvidenceDealMoneyVC.xib; path = ../Fufures/PL_ProvidenceDealMoneyVC.xib; sourceTree = "<group>"; };
+		9A7AFAE623978D6F00C48D13 /* PL_ProvidenceDealModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealModel.h; sourceTree = "<group>"; };
+		9A7AFAEA23978D6F00C48D13 /* PL_ProvidenceDealVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PL_ProvidenceDealVC.xib; path = ../Fufures/PL_ProvidenceDealVC.xib; sourceTree = "<group>"; };
+		9A7AFAEB23978D6F00C48D13 /* PL_ProvidenceDealBuyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PL_ProvidenceDealBuyController.h; path = ../Fufures/PL_ProvidenceDealBuyController.h; sourceTree = "<group>"; };
+		9A7AFAEC23978D6F00C48D13 /* PL_ProvidenceDealVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PL_ProvidenceDealVC.m; path = ../Fufures/PL_ProvidenceDealVC.m; sourceTree = "<group>"; };
+		9A7AFAEF23978D7000C48D13 /* PL_ProvidenceDealTodayTradeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealTodayTradeVC.h; sourceTree = "<group>"; };
+		9A7AFAF023978D7000C48D13 /* PL_ProvidenceDealBuyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PL_ProvidenceDealBuyController.m; path = ../Fufures/PL_ProvidenceDealBuyController.m; sourceTree = "<group>"; };
+		9A7AFAF523978D7000C48D13 /* PL_ProvidenceDealModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealModel.m; sourceTree = "<group>"; };
+		9A7AFAF823978D7100C48D13 /* PL_ProvidenceDealHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PL_ProvidenceDealHistoryController.m; path = ../Fufures/PL_ProvidenceDealHistoryController.m; sourceTree = "<group>"; };
+		9A7AFAF923978D7100C48D13 /* PL_ProvidenceDealMoneyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PL_ProvidenceDealMoneyVC.m; path = ../Fufures/PL_ProvidenceDealMoneyVC.m; sourceTree = "<group>"; };
+		9A7AFB1223978E7200C48D13 /* PL_ProvidenceDealDyTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealDyTopView.h; sourceTree = "<group>"; };
+		9A7AFB1323978E7300C48D13 /* PL_ProvidenceDealDyTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealDyTopView.m; sourceTree = "<group>"; };
+		9A7AFB1523978E8B00C48D13 /* PL_ProvidenceDealTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealTopCell.h; sourceTree = "<group>"; };
+		9A7AFB1623978E8C00C48D13 /* PL_ProvidenceDealTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealTopCell.m; sourceTree = "<group>"; };
+		9A7AFB1723978E8C00C48D13 /* PL_ProvidenceDealTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceDealTopCell.xib; sourceTree = "<group>"; };
+		9A7AFB1F23979B5F00C48D13 /* PL_ProvidenceHomeOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeOptionView.m; sourceTree = "<group>"; };
+		9A7AFB2023979B6000C48D13 /* PL_ProvidenceHomeFormHorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeFormHorView.m; sourceTree = "<group>"; };
+		9A7AFB2123979B6000C48D13 /* PL_ProvidenceHomeStockParticularsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeStockParticularsView.h; sourceTree = "<group>"; };
+		9A7AFB2223979B6000C48D13 /* PL_ProvidenceHomeFormHorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeFormHorView.h; sourceTree = "<group>"; };
+		9A7AFB2323979B6000C48D13 /* PL_ProvidenceStepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceStepperView.m; sourceTree = "<group>"; };
+		9A7AFB2423979B6000C48D13 /* PL_ProvidenceHomeDealView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeDealView.m; sourceTree = "<group>"; };
+		9A7AFB2523979B6000C48D13 /* PL_ProvidenceHomeOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeOptionView.h; sourceTree = "<group>"; };
+		9A7AFB2623979B6000C48D13 /* PL_ProvidenceHomeStockParticularsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeStockParticularsView.m; sourceTree = "<group>"; };
+		9A7AFB2723979B6000C48D13 /* PL_ProvidenceHomeDealView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeDealView.h; sourceTree = "<group>"; };
+		9A7AFB2823979B6000C48D13 /* PL_ProvidenceHomeStockOptionTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeStockOptionTopView.m; sourceTree = "<group>"; };
+		9A7AFB2923979B6000C48D13 /* PL_ProvidenceHomeStockOptionTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeStockOptionTopView.h; sourceTree = "<group>"; };
+		9A7AFB2A23979B6000C48D13 /* PL_ProvidenceStepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceStepperView.h; sourceTree = "<group>"; };
+		9A7AFB2B23979B6000C48D13 /* PL_ProvidenceHomeOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeOptionCell.m; sourceTree = "<group>"; };
+		9A7AFB2C23979B6000C48D13 /* PL_ProvidenceHomeOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeOptionCell.h; sourceTree = "<group>"; };
+		9A7AFB3423979CAF00C48D13 /* PL_ProvidencePaperModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidencePaperModel.h; sourceTree = "<group>"; };
+		9A7AFB3523979CAF00C48D13 /* PL_ProvidencePaperModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidencePaperModel.m; sourceTree = "<group>"; };
+		9A7AFB372397A82000C48D13 /* launch_bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch_bg.jpeg; sourceTree = "<group>"; };
+		9A7AFB392397A84900C48D13 /* icon_pf_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_pf_logo@3x.png"; path = "Assets.xcassets/AppIcon.appiconset/icon_pf_logo@3x.png"; sourceTree = "<group>"; };
+		9A7AFB3C2397ABD800C48D13 /* PL_ProvidenceSettingAgreeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceSettingAgreeVC.xib; sourceTree = "<group>"; };
+		9A7AFB3F2397ABD800C48D13 /* PL_ProvidenceSettingAgreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceSettingAgreeVC.h; sourceTree = "<group>"; };
+		9A7AFB412397ABD800C48D13 /* PL_ProvidenceSettingAgreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceSettingAgreeVC.m; sourceTree = "<group>"; };
+		9A7AFB432397ABD800C48D13 /* PL_ProvidenceSettingSignVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceSettingSignVC.m; sourceTree = "<group>"; };
+		9A7AFB452397ABD800C48D13 /* PL_ProvidenceSettingAboutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceSettingAboutVC.m; sourceTree = "<group>"; };
+		9A7AFB462397ABD800C48D13 /* PL_ProvidenceSettingSignVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceSettingSignVC.xib; sourceTree = "<group>"; };
+		9A7AFB482397ABD800C48D13 /* PL_ProvidenceSettingSignVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceSettingSignVC.h; sourceTree = "<group>"; };
+		9A7AFB4C2397ABD900C48D13 /* PL_ProvidenceSettingAboutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceSettingAboutVC.h; sourceTree = "<group>"; };
+		9A7AFB4D2397ABD900C48D13 /* PL_ProvidenceSettingAboutVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceSettingAboutVC.xib; sourceTree = "<group>"; };
+		9A7AFB612397ADB400C48D13 /* PL_ProvidenceSettingChangePassVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceSettingChangePassVC.h; sourceTree = "<group>"; };
+		9A7AFB622397ADB400C48D13 /* PL_ProvidenceSettingTickVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceSettingTickVC.xib; sourceTree = "<group>"; };
+		9A7AFB632397ADB400C48D13 /* PL_ProvidenceSettingNameVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceSettingNameVC.xib; sourceTree = "<group>"; };
+		9A7AFB642397ADB400C48D13 /* PL_ProvidenceSettingChangePassVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceSettingChangePassVC.m; sourceTree = "<group>"; };
+		9A7AFB652397ADB400C48D13 /* PL_ProvidenceSettingChangePassVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceSettingChangePassVC.xib; sourceTree = "<group>"; };
+		9A7AFB662397ADB400C48D13 /* PL_ProvidenceSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceSettingVC.m; sourceTree = "<group>"; };
+		9A7AFB672397ADB400C48D13 /* PL_ProvidenceSettingNameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceSettingNameVC.h; sourceTree = "<group>"; };
+		9A7AFB682397ADB400C48D13 /* PL_ProvidenceSettingTickVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceSettingTickVC.m; sourceTree = "<group>"; };
+		9A7AFB692397ADB400C48D13 /* PL_ProvidenceSettingTickVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceSettingTickVC.h; sourceTree = "<group>"; };
+		9A7AFB6A2397ADB400C48D13 /* PL_ProvidenceSettingNameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceSettingNameVC.m; sourceTree = "<group>"; };
+		9A7AFB6B2397ADB400C48D13 /* PL_ProvidenceSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceSettingVC.h; sourceTree = "<group>"; };
+		9A7AFB732397AEB600C48D13 /* PL_ProvidenceSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceSettingCell.h; sourceTree = "<group>"; };
+		9A7AFB742397AEB600C48D13 /* PL_ProvidenceSettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceSettingCell.xib; sourceTree = "<group>"; };
+		9A7AFB752397AEB600C48D13 /* PL_ProvidenceSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceSettingCell.m; sourceTree = "<group>"; };
+		9A7AFB782397B05D00C48D13 /* PL_ProvidenceBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceBaseVC.m; sourceTree = "<group>"; };
+		9A7AFB792397B05D00C48D13 /* PL_ProvidenceNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceNavigationVC.m; sourceTree = "<group>"; };
+		9A7AFB7A2397B05D00C48D13 /* PL_ProvidenceNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceNavigationVC.h; sourceTree = "<group>"; };
+		9A7AFB7B2397B05D00C48D13 /* PL_ProvidenceBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceBaseVC.h; sourceTree = "<group>"; };
+		9A7AFB7C2397B05D00C48D13 /* PL_ProvidenceTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceTabVC.h; sourceTree = "<group>"; };
+		9A7AFB7D2397B05D00C48D13 /* PL_ProvidenceTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceTabVC.m; sourceTree = "<group>"; };
+		9A7AFB7E2397B05D00C48D13 /* PL_ProvidenceDealManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealManager.h; sourceTree = "<group>"; };
+		9A7AFB7F2397B05D00C48D13 /* PL_ProvidenceDealManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealManager.m; sourceTree = "<group>"; };
+		9A7AFB842397B70600C48D13 /* PL_ProvidenceHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHttpRequest.m; sourceTree = "<group>"; };
+		9A7AFB852397B70600C48D13 /* PL_ProvidenceHttpUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHttpUrl.h; sourceTree = "<group>"; };
+		9A7AFB862397B70600C48D13 /* PL_ProvidenceHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHttpRequest.h; sourceTree = "<group>"; };
+		9A84045D2395F3C000EC0B39 /* PL_ProvidenceHomeBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeBaseView.m; sourceTree = "<group>"; };
+		9A84045E2395F3C000EC0B39 /* PL_ProvidenceHomeBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeBaseView.h; sourceTree = "<group>"; };
+		9A84045F2395F3C000EC0B39 /* PL_ProvidenceHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PL_ProvidenceHomeCell.h; path = ../../View/PL_ProvidenceHomeCell.h; sourceTree = "<group>"; };
+		9A8404612395F3C000EC0B39 /* PL_ProvidenceHomeStockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeStockCell.m; sourceTree = "<group>"; };
+		9A8404622395F3C000EC0B39 /* PL_ProvidenceHomeTabControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeTabControlView.m; sourceTree = "<group>"; };
+		9A8404672395F3C000EC0B39 /* PL_ProvidenceHomeTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeTopView.h; sourceTree = "<group>"; };
+		9A8404682395F3C000EC0B39 /* PL_ProvidenceHomeStockTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeStockTopCell.m; sourceTree = "<group>"; };
+		9A8404692395F3C000EC0B39 /* PL_ProvidenceHomeTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeTopView.m; sourceTree = "<group>"; };
+		9A84046A2395F3C000EC0B39 /* PL_ProvidenceHomeStockTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeStockTopCell.h; sourceTree = "<group>"; };
+		9A84046B2395F3C000EC0B39 /* PL_ProvidenceHomeStockTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceHomeStockTopCell.xib; sourceTree = "<group>"; };
+		9A84046F2395F3C100EC0B39 /* PL_ProvidenceHomeStockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeStockView.m; sourceTree = "<group>"; };
+		9A8404702395F3C100EC0B39 /* PL_ProvidenceHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PL_ProvidenceHomeCell.m; path = ../../View/PL_ProvidenceHomeCell.m; sourceTree = "<group>"; };
+		9A8404732395F3C100EC0B39 /* PL_ProvidenceHomeStockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeStockCell.h; sourceTree = "<group>"; };
+		9A8404792395F3C100EC0B39 /* PL_ProvidenceHomeTabControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeTabControlView.h; sourceTree = "<group>"; };
+		9A84047B2395F3C100EC0B39 /* PL_ProvidenceBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceBaseButton.m; sourceTree = "<group>"; };
+		9A84047C2395F3C100EC0B39 /* PL_ProvidenceBaseButtonConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceBaseButtonConfig.m; sourceTree = "<group>"; };
+		9A84047D2395F3C100EC0B39 /* PL_ProvidenceBaseButtonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceBaseButtonConfig.h; sourceTree = "<group>"; };
+		9A84047E2395F3C100EC0B39 /* PL_ProvidenceBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceBaseButton.h; sourceTree = "<group>"; };
+		9A8404852395F3C200EC0B39 /* PL_ProvidenceHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PL_ProvidenceHomeCell.xib; path = ../../View/PL_ProvidenceHomeCell.xib; sourceTree = "<group>"; };
+		9A8404882395F3C200EC0B39 /* PL_ProvidenceHomeStockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeStockView.h; sourceTree = "<group>"; };
+		9A8404A22395F79D00EC0B39 /* PL_ProvidenceDealController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealController.h; sourceTree = "<group>"; };
+		9A8404A32395F79D00EC0B39 /* PL_ProvidenceDealController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealController.m; sourceTree = "<group>"; };
+		9A8404A52395F86B00EC0B39 /* PL_ProvidenceDealTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealTopView.h; sourceTree = "<group>"; };
+		9A8404A62395F86B00EC0B39 /* PL_ProvidenceDealTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealTopView.m; sourceTree = "<group>"; };
+		9A8404A72395F86B00EC0B39 /* PL_ProvidenceDealTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PL_ProvidenceDealTopView.xib; sourceTree = "<group>"; };
+		9A8404AA2396009800EC0B39 /* PL_ProvidenceDealMenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealMenuCell.h; sourceTree = "<group>"; };
+		9A8404AB2396009800EC0B39 /* PL_ProvidenceDealMenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealMenuCell.m; sourceTree = "<group>"; };
+		9A8404AC2396009800EC0B39 /* PL_ProvidenceDealMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PL_ProvidenceDealMenuCell.xib; sourceTree = "<group>"; };
+		9A8404AF239601E000EC0B39 /* PL_ProvidenceDealNameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealNameCell.h; sourceTree = "<group>"; };
+		9A8404B0239601E000EC0B39 /* PL_ProvidenceDealNameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealNameCell.m; sourceTree = "<group>"; };
+		9A8404B1239601E000EC0B39 /* PL_ProvidenceDealNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PL_ProvidenceDealNameCell.xib; sourceTree = "<group>"; };
+		9A8404B4239603D800EC0B39 /* PL_ProvidenceDealCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealCell.h; sourceTree = "<group>"; };
+		9A8404B5239603D800EC0B39 /* PL_ProvidenceDealCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealCell.m; sourceTree = "<group>"; };
+		9A8404B6239603D800EC0B39 /* PL_ProvidenceDealCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PL_ProvidenceDealCell.xib; sourceTree = "<group>"; };
+		9A8404B923963EFB00EC0B39 /* PL_ProvidenceHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeController.h; sourceTree = "<group>"; };
+		9A8404BA23963EFB00EC0B39 /* PL_ProvidenceHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeController.m; sourceTree = "<group>"; };
+		9A8404BD23963F9100EC0B39 /* PL_ProvidenceHomeNewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeNewCell.h; sourceTree = "<group>"; };
+		9A8404BE23963F9100EC0B39 /* PL_ProvidenceHomeNewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeNewCell.m; sourceTree = "<group>"; };
+		9A8404BF23963F9100EC0B39 /* PL_ProvidenceHomeNewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PL_ProvidenceHomeNewCell.xib; sourceTree = "<group>"; };
+		9A8404C2239641D100EC0B39 /* PL_ProvidenceHomeBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeBannerCell.h; sourceTree = "<group>"; };
+		9A8404C3239641D100EC0B39 /* PL_ProvidenceHomeBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeBannerCell.m; sourceTree = "<group>"; };
+		9A8404C4239641D100EC0B39 /* PL_ProvidenceHomeBannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PL_ProvidenceHomeBannerCell.xib; sourceTree = "<group>"; };
+		9A8404C72396420000EC0B39 /* PL_ProvidenceHomeMenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeMenuCell.h; sourceTree = "<group>"; };
+		9A8404C82396420000EC0B39 /* PL_ProvidenceHomeMenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeMenuCell.m; sourceTree = "<group>"; };
+		9A8404C92396420000EC0B39 /* PL_ProvidenceHomeMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PL_ProvidenceHomeMenuCell.xib; sourceTree = "<group>"; };
+		9A8404CC23964CC800EC0B39 /* PL_ProvidenceStockHeadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceStockHeadCell.h; sourceTree = "<group>"; };
+		9A8404CD23964CC800EC0B39 /* PL_ProvidenceStockHeadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceStockHeadCell.m; sourceTree = "<group>"; };
+		9A8404CE23964CC800EC0B39 /* PL_ProvidenceStockHeadCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PL_ProvidenceStockHeadCell.xib; sourceTree = "<group>"; };
+		9A8404D423964E6E00EC0B39 /* PL_ProvidenceHomrStockCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomrStockCell.h; sourceTree = "<group>"; };
+		9A8404D523964E6E00EC0B39 /* PL_ProvidenceHomrStockCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomrStockCell.m; sourceTree = "<group>"; };
+		9A8404D623964E6E00EC0B39 /* PL_ProvidenceHomrStockCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PL_ProvidenceHomrStockCell.xib; sourceTree = "<group>"; };
+		9A8404E323964ED400EC0B39 /* PL_ProvidenceHomeFutureHeadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeFutureHeadCell.h; sourceTree = "<group>"; };
+		9A8404E423964ED400EC0B39 /* PL_ProvidenceHomeFutureHeadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeFutureHeadCell.m; sourceTree = "<group>"; };
+		9A8404E523964ED400EC0B39 /* PL_ProvidenceHomeFutureHeadCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PL_ProvidenceHomeFutureHeadCell.xib; sourceTree = "<group>"; };
+		9A87C5282395113100DE5B23 /* 富华期货.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "富华期货.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A87C5432395113500DE5B23 /* ProvidenceFuturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvidenceFuturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A87C5472395113500DE5B23 /* ProvidenceFuturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvidenceFuturesTests.m; sourceTree = "<group>"; };
+		9A87C5492395113500DE5B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A87C54E2395113500DE5B23 /* ProvidenceFuturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvidenceFuturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A87C5522395113500DE5B23 /* ProvidenceFuturesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvidenceFuturesUITests.m; sourceTree = "<group>"; };
+		9A87C5542395113500DE5B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A87C5602395121800DE5B23 /* PL_ProvidenceGlobalMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceGlobalMacro.h; sourceTree = "<group>"; };
+		9A87C5612395121800DE5B23 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A87C5622395121800DE5B23 /* PL_ProvidenceGlobalVariableDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceGlobalVariableDefine.h; sourceTree = "<group>"; };
+		9A87C5632395121900DE5B23 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A87C5642395121900DE5B23 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A87C5652395121900DE5B23 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A87C57F2395121900DE5B23 /* PL_ProvidenceHomeStockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeStockVC.h; sourceTree = "<group>"; };
+		9A87C5812395121900DE5B23 /* PL_ProvidenceHomeTheNewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeTheNewVC.h; sourceTree = "<group>"; };
+		9A87C5822395121900DE5B23 /* PL_ProvidenceHomeTheNewDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeTheNewDetailVC.h; sourceTree = "<group>"; };
+		9A87C5832395121900DE5B23 /* PL_ProvidenceHomeScreenLoadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeScreenLoadVC.m; sourceTree = "<group>"; };
+		9A87C5842395121900DE5B23 /* PL_ProvidenceHomeInfoDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeInfoDetailsVC.m; sourceTree = "<group>"; };
+		9A87C5852395121900DE5B23 /* PL_ProvidenceHomeTheNewDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeTheNewDetailVC.m; sourceTree = "<group>"; };
+		9A87C5862395121900DE5B23 /* PL_ProvidenceHomeTheNewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeTheNewVC.m; sourceTree = "<group>"; };
+		9A87C5872395121900DE5B23 /* PL_ProvidenceHomeStockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeStockVC.m; sourceTree = "<group>"; };
+		9A87C5892395121900DE5B23 /* PL_ProvidenceMarketListProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceMarketListProtocol.h; sourceTree = "<group>"; };
+		9A87C58A2395121900DE5B23 /* PL_ProvidenceHomeInfoDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeInfoDetailsVC.h; sourceTree = "<group>"; };
+		9A87C58B2395121900DE5B23 /* PL_ProvidenceHomeScreenLoadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeScreenLoadVC.h; sourceTree = "<group>"; };
+		9A87C58D2395121900DE5B23 /* PL_ProvidenceHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeModel.h; sourceTree = "<group>"; };
+		9A87C5902395121900DE5B23 /* PL_ProvidenceHomeStockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeStockModel.m; sourceTree = "<group>"; };
+		9A87C5912395121900DE5B23 /* PL_ProvidenceHomeStockTopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeStockTopModel.h; sourceTree = "<group>"; };
+		9A87C5922395121900DE5B23 /* PL_ProvidenceMarketLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceMarketLogic.h; sourceTree = "<group>"; };
+		9A87C5932395121900DE5B23 /* PL_ProvidenceHomeStockTradeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeStockTradeModel.h; sourceTree = "<group>"; };
+		9A87C5942395121900DE5B23 /* PL_ProvidenceHomeOrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeOrderModel.m; sourceTree = "<group>"; };
+		9A87C5962395121900DE5B23 /* PL_ProvidenceHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeModel.m; sourceTree = "<group>"; };
+		9A87C5972395121900DE5B23 /* PL_ProvidenceHomeStockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeStockModel.h; sourceTree = "<group>"; };
+		9A87C5992395121900DE5B23 /* PL_ProvidenceMarketLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceMarketLogic.m; sourceTree = "<group>"; };
+		9A87C59A2395121900DE5B23 /* PL_ProvidenceHomeStockTopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeStockTopModel.m; sourceTree = "<group>"; };
+		9A87C59B2395121900DE5B23 /* PL_ProvidenceHomeOrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeOrderModel.h; sourceTree = "<group>"; };
+		9A87C59C2395121900DE5B23 /* PL_ProvidenceHomeStockTradeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeStockTradeModel.m; sourceTree = "<group>"; };
+		9A87C5CC2395121900DE5B23 /* PL_ProvidenceHomeMenuFuturesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeMenuFuturesView.m; sourceTree = "<group>"; };
+		9A87C5CD2395121900DE5B23 /* PL_ProvidenceHomeMenuFuturesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeMenuFuturesVC.h; sourceTree = "<group>"; };
+		9A87C5CE2395121900DE5B23 /* PL_ProvidenceHomeMenuFuturesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHomeMenuFuturesView.h; sourceTree = "<group>"; };
+		9A87C5CF2395121900DE5B23 /* PL_ProvidenceHomeMenuFuturesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHomeMenuFuturesVC.m; sourceTree = "<group>"; };
+		9A87C5F52395121900DE5B23 /* PL_ProvidencePaperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidencePaperCell.m; sourceTree = "<group>"; };
+		9A87C5F62395121900DE5B23 /* PL_ProvidencePaperDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidencePaperDetailVC.m; sourceTree = "<group>"; };
+		9A87C5F72395121900DE5B23 /* PL_ProvidencePaperVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidencePaperVC.m; sourceTree = "<group>"; };
+		9A87C5F82395121900DE5B23 /* PL_ProvidencePaperDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidencePaperDetailVC.h; sourceTree = "<group>"; };
+		9A87C5F92395121900DE5B23 /* PL_ProvidencePaperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidencePaperCell.h; sourceTree = "<group>"; };
+		9A87C5FA2395121900DE5B23 /* PL_ProvidencePaperCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidencePaperCell.xib; sourceTree = "<group>"; };
+		9A87C5FB2395121900DE5B23 /* PL_ProvidencePaperVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidencePaperVC.h; sourceTree = "<group>"; };
+		9A87C6272395121900DE5B23 /* PL_ProvidenceRegisteredVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceRegisteredVC.xib; sourceTree = "<group>"; };
+		9A87C6282395121900DE5B23 /* PL_ProvidenceRegisteredVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceRegisteredVC.h; sourceTree = "<group>"; };
+		9A87C6292395121900DE5B23 /* PL_ProvidenceLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLoginVC.h; sourceTree = "<group>"; };
+		9A87C62A2395121900DE5B23 /* PL_ProvidenceLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLoginManager.m; sourceTree = "<group>"; };
+		9A87C62B2395121900DE5B23 /* PL_ProvidenceRegisteredVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceRegisteredVC.m; sourceTree = "<group>"; };
+		9A87C62C2395121900DE5B23 /* PL_ProvidenceLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLoginManager.h; sourceTree = "<group>"; };
+		9A87C62D2395121900DE5B23 /* PL_ProvidenceLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceLoginVC.xib; sourceTree = "<group>"; };
+		9A87C62E2395121900DE5B23 /* PL_ProvidenceLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLoginVC.m; sourceTree = "<group>"; };
+		9A87C6302395121900DE5B23 /* PL_ProvidenceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceTool.h; sourceTree = "<group>"; };
+		9A87C6312395121900DE5B23 /* PL_ProvidenceEnptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PL_ProvidenceEnptyView.xib; sourceTree = "<group>"; };
+		9A87C6322395121900DE5B23 /* PL_ProvidenceDataUsedEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDataUsedEngine.h; sourceTree = "<group>"; };
+		9A87C6332395121900DE5B23 /* PL_ProvidenceDateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDateManager.h; sourceTree = "<group>"; };
+		9A87C6342395121900DE5B23 /* PL_ProvidenceDealDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDealDataManager.m; sourceTree = "<group>"; };
+		9A87C6352395121900DE5B23 /* PL_ProvidenceWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceWebViewController.m; sourceTree = "<group>"; };
+		9A87C6362395121900DE5B23 /* PL_ProvidenceEnptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceEnptyView.m; sourceTree = "<group>"; };
+		9A87C6372395121900DE5B23 /* PL_ProvidenceDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDataManager.m; sourceTree = "<group>"; };
+		9A87C6382395121900DE5B23 /* PL_ProvidenceIndentTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceIndentTextField.m; sourceTree = "<group>"; };
+		9A87C6392395121900DE5B23 /* PL_ProvidenceDateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDateManager.m; sourceTree = "<group>"; };
+		9A87C63A2395121900DE5B23 /* PL_ProvidenceDataUsedEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDataUsedEngine.m; sourceTree = "<group>"; };
+		9A87C63B2395121900DE5B23 /* PL_ProvidenceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceTool.m; sourceTree = "<group>"; };
+		9A87C63C2395121900DE5B23 /* PL_ProvidenceEnptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceEnptyView.h; sourceTree = "<group>"; };
+		9A87C63D2395121900DE5B23 /* PL_ProvidenceWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceWebViewController.h; sourceTree = "<group>"; };
+		9A87C63E2395121900DE5B23 /* PL_ProvidenceDealDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDealDataManager.h; sourceTree = "<group>"; };
+		9A87C63F2395121900DE5B23 /* PL_ProvidenceIndentTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceIndentTextField.h; sourceTree = "<group>"; };
+		9A87C6402395121900DE5B23 /* PL_ProvidenceDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDataManager.h; sourceTree = "<group>"; };
+		9A87C6562395121900DE5B23 /* NSObject+SSJNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SSJNetWork.m"; sourceTree = "<group>"; };
+		9A87C6572395121900DE5B23 /* UIViewController+SSJNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SSJNetWork.m"; sourceTree = "<group>"; };
+		9A87C6582395121900DE5B23 /* NSString+SSJNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SSJNetWork.m"; sourceTree = "<group>"; };
+		9A87C6592395121900DE5B23 /* NSDictionary+SSJNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SSJNetWork.m"; sourceTree = "<group>"; };
+		9A87C65A2395121900DE5B23 /* UINavigationController+SSJNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SSJNetWork.h"; sourceTree = "<group>"; };
+		9A87C65B2395121900DE5B23 /* NSObject+SSJNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SSJNetWork.h"; sourceTree = "<group>"; };
+		9A87C65C2395121900DE5B23 /* UIViewController+SSJNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SSJNetWork.h"; sourceTree = "<group>"; };
+		9A87C65D2395121900DE5B23 /* UINavigationController+SSJNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SSJNetWork.m"; sourceTree = "<group>"; };
+		9A87C65E2395121900DE5B23 /* NSDictionary+SSJNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SSJNetWork.h"; sourceTree = "<group>"; };
+		9A87C65F2395121900DE5B23 /* NSString+SSJNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SSJNetWork.h"; sourceTree = "<group>"; };
+		9A87C6612395121900DE5B23 /* SSJMemCacheDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJMemCacheDataCenter.h; sourceTree = "<group>"; };
+		9A87C6622395121900DE5B23 /* SSJMemCacheDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJMemCacheDataCenter.m; sourceTree = "<group>"; };
+		9A87C6632395121900DE5B23 /* SSJNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJNetWork.h; sourceTree = "<group>"; };
+		9A87C6642395121900DE5B23 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		9A87C6662395121900DE5B23 /* SSJNetworkingDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJNetworkingDefines.h; sourceTree = "<group>"; };
+		9A87C6682395121900DE5B23 /* NEHTTPEyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEyeViewController.m; sourceTree = "<group>"; };
+		9A87C6692395121900DE5B23 /* SSJLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJLogManager.m; sourceTree = "<group>"; };
+		9A87C66A2395121900DE5B23 /* NEHTTPModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPModelManager.h; sourceTree = "<group>"; };
+		9A87C66B2395121900DE5B23 /* SSJNetWorkLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJNetWorkLogHelper.m; sourceTree = "<group>"; };
+		9A87C66C2395121900DE5B23 /* NEHTTPEyeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEyeDetailViewController.m; sourceTree = "<group>"; };
+		9A87C66D2395121900DE5B23 /* NEHTTPEyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEyeViewController.h; sourceTree = "<group>"; };
+		9A87C66E2395121900DE5B23 /* SSJNetWorkLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJNetWorkLogHelper.h; sourceTree = "<group>"; };
+		9A87C66F2395121900DE5B23 /* SSJLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJLogManager.h; sourceTree = "<group>"; };
+		9A87C6702395121900DE5B23 /* NEHTTPModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPModelManager.m; sourceTree = "<group>"; };
+		9A87C6712395121900DE5B23 /* NEHTTPEyeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEyeDetailViewController.h; sourceTree = "<group>"; };
+		9A87C6732395121900DE5B23 /* SSJApiRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJApiRequestManager.m; sourceTree = "<group>"; };
+		9A87C6742395121900DE5B23 /* SSJNetWorkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJNetWorkConfig.m; sourceTree = "<group>"; };
+		9A87C6752395121900DE5B23 /* SSJApiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJApiProxy.h; sourceTree = "<group>"; };
+		9A87C6762395121900DE5B23 /* SSJNetworkRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJNetworkRequestConfig.h; sourceTree = "<group>"; };
+		9A87C6772395121900DE5B23 /* SSJURLRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJURLRequestManager.h; sourceTree = "<group>"; };
+		9A87C6782395121900DE5B23 /* SSJNetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJNetWorkHelper.m; sourceTree = "<group>"; };
+		9A87C6792395121900DE5B23 /* SSJHTTPSessionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJHTTPSessionModel.m; sourceTree = "<group>"; };
+		9A87C67A2395121900DE5B23 /* SSUploadTaskRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSUploadTaskRequest.h; sourceTree = "<group>"; };
+		9A87C67B2395121900DE5B23 /* SSJApiRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJApiRequestManager.h; sourceTree = "<group>"; };
+		9A87C67C2395121900DE5B23 /* SSJApiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJApiProxy.m; sourceTree = "<group>"; };
+		9A87C67D2395121900DE5B23 /* SSJNetWorkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJNetWorkConfig.h; sourceTree = "<group>"; };
+		9A87C67E2395121900DE5B23 /* SSUploadTaskRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSUploadTaskRequest.m; sourceTree = "<group>"; };
+		9A87C67F2395121900DE5B23 /* SSJHTTPSessionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJHTTPSessionModel.h; sourceTree = "<group>"; };
+		9A87C6802395121900DE5B23 /* SSJNetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJNetWorkHelper.h; sourceTree = "<group>"; };
+		9A87C6812395121900DE5B23 /* SSJURLRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJURLRequestManager.m; sourceTree = "<group>"; };
+		9A87C6822395121900DE5B23 /* SSJNetworkRequestConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJNetworkRequestConfig.m; sourceTree = "<group>"; };
+		9A87C6842395121900DE5B23 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		9A87C6892395121900DE5B23 /* DataCenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCenterProtocol.h; sourceTree = "<group>"; };
+		9A87C68A2395121900DE5B23 /* DataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCenter.m; sourceTree = "<group>"; };
+		9A87C68B2395121900DE5B23 /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCenter.h; sourceTree = "<group>"; };
+		9A87C68D2395121900DE5B23 /* PL_ProvidenceLineDataLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineDataLogic.m; sourceTree = "<group>"; };
+		9A87C68E2395121900DE5B23 /* PL_ProvidenceLineIndicatorLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineIndicatorLogic.m; sourceTree = "<group>"; };
+		9A87C68F2395121900DE5B23 /* PL_ProvidenceLineDataLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineDataLogic.h; sourceTree = "<group>"; };
+		9A87C6902395121900DE5B23 /* PL_ProvidenceLineIndicatorLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineIndicatorLogic.h; sourceTree = "<group>"; };
+		9A87C6922395121900DE5B23 /* KLineViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLineViewProtocol.h; sourceTree = "<group>"; };
+		9A87C6932395121900DE5B23 /* PL_ProvidenceLineVolViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineVolViewConfig.m; sourceTree = "<group>"; };
+		9A87C6942395121900DE5B23 /* PL_ProvidenceLineViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineViewConfig.h; sourceTree = "<group>"; };
+		9A87C6952395121900DE5B23 /* PL_ProvidenceLineVolViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineVolViewConfig.h; sourceTree = "<group>"; };
+		9A87C6962395121900DE5B23 /* PL_ProvidenceLineViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineViewConfig.m; sourceTree = "<group>"; };
+		9A87C6982395121900DE5B23 /* NSNumber+StringFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+StringFormatter.m"; sourceTree = "<group>"; };
+		9A87C6992395121900DE5B23 /* NSValue+GLExtremeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+GLExtremeValue.h"; sourceTree = "<group>"; };
+		9A87C69A2395121900DE5B23 /* NSNumber+StringFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+StringFormatter.h"; sourceTree = "<group>"; };
+		9A87C69B2395121900DE5B23 /* NSValue+GLExtremeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+GLExtremeValue.m"; sourceTree = "<group>"; };
+		9A87C69D2395121900DE5B23 /* PL_ProvidenceKLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceKLineModel.m; sourceTree = "<group>"; };
+		9A87C69E2395121900DE5B23 /* PL_ProvidenceKLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceKLineModel.h; sourceTree = "<group>"; };
+		9A87C6A02395121900DE5B23 /* PL_ProvidenceZSHKLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceZSHKLineView.m; sourceTree = "<group>"; };
+		9A87C6A12395121900DE5B23 /* PL_ProvidenceZSHKLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceZSHKLineView.h; sourceTree = "<group>"; };
+		9A87C6A32395121900DE5B23 /* PL_ProvidenceLineMADrawLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineMADrawLogic.m; sourceTree = "<group>"; };
+		9A87C6A42395121900DE5B23 /* PL_ProvidenceLineVolMADrawLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineVolMADrawLogic.h; sourceTree = "<group>"; };
+		9A87C6A52395121900DE5B23 /* PL_ProvidenceBaseDrawLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceBaseDrawLogic.m; sourceTree = "<group>"; };
+		9A87C6A62395121900DE5B23 /* PL_ProvidenceLineBGDrawLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineBGDrawLogic.h; sourceTree = "<group>"; };
+		9A87C6A72395121900DE5B23 /* PL_ProvidenceLineKDJDrawLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineKDJDrawLogic.h; sourceTree = "<group>"; };
+		9A87C6A82395121900DE5B23 /* PL_ProvidenceLineMACDDrawLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineMACDDrawLogic.h; sourceTree = "<group>"; };
+		9A87C6A92395121900DE5B23 /* PL_ProvidenceLineDrawLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineDrawLogic.m; sourceTree = "<group>"; };
+		9A87C6AA2395121900DE5B23 /* PL_ProvidenceLineTimeDrawLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineTimeDrawLogic.h; sourceTree = "<group>"; };
+		9A87C6AB2395121900DE5B23 /* PL_ProvidenceLineVolDrawLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineVolDrawLogic.m; sourceTree = "<group>"; };
+		9A87C6AC2395121900DE5B23 /* PL_ProvidenceLineRSIDrawLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineRSIDrawLogic.h; sourceTree = "<group>"; };
+		9A87C6AD2395121900DE5B23 /* PL_ProvidenceLineBOLLDrawLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineBOLLDrawLogic.h; sourceTree = "<group>"; };
+		9A87C6AE2395121900DE5B23 /* PL_ProvidenceLineBGDrawLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineBGDrawLogic.m; sourceTree = "<group>"; };
+		9A87C6AF2395121900DE5B23 /* PL_ProvidenceBaseDrawLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceBaseDrawLogic.h; sourceTree = "<group>"; };
+		9A87C6B02395121900DE5B23 /* PL_ProvidenceChartDrawProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceChartDrawProtocol.h; sourceTree = "<group>"; };
+		9A87C6B12395121900DE5B23 /* PL_ProvidenceLineVolMADrawLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineVolMADrawLogic.m; sourceTree = "<group>"; };
+		9A87C6B22395121900DE5B23 /* PL_ProvidenceLineMADrawLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineMADrawLogic.h; sourceTree = "<group>"; };
+		9A87C6B32395121900DE5B23 /* PL_ProvidenceLineDrawLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineDrawLogic.h; sourceTree = "<group>"; };
+		9A87C6B42395121900DE5B23 /* PL_ProvidenceLineMACDDrawLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineMACDDrawLogic.m; sourceTree = "<group>"; };
+		9A87C6B52395121900DE5B23 /* PL_ProvidenceLineKDJDrawLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineKDJDrawLogic.m; sourceTree = "<group>"; };
+		9A87C6B62395121900DE5B23 /* PL_ProvidenceLineRSIDrawLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineRSIDrawLogic.m; sourceTree = "<group>"; };
+		9A87C6B72395121900DE5B23 /* PL_ProvidenceLineVolDrawLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineVolDrawLogic.h; sourceTree = "<group>"; };
+		9A87C6B82395121900DE5B23 /* PL_ProvidenceLineTimeDrawLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineTimeDrawLogic.m; sourceTree = "<group>"; };
+		9A87C6B92395121900DE5B23 /* PL_ProvidenceLineBOLLDrawLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineBOLLDrawLogic.m; sourceTree = "<group>"; };
+		9A87C6BB2395121900DE5B23 /* PL_ProvidenceConstantDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceConstantDefinition.m; sourceTree = "<group>"; };
+		9A87C6BC2395121900DE5B23 /* PL_ProvidenceConstantDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceConstantDefinition.h; sourceTree = "<group>"; };
+		9A87C6BD2395121900DE5B23 /* GLKLineKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKLineKit.h; sourceTree = "<group>"; };
+		9A87C6C02395121900DE5B23 /* PL_ProvidenceDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceDataCenter.m; sourceTree = "<group>"; };
+		9A87C6C12395121900DE5B23 /* PL_ProvidenceDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceDataCenter.h; sourceTree = "<group>"; };
+		9A87C6C32395121900DE5B23 /* PL_ProvidenceFullScreenKLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceFullScreenKLineView.m; sourceTree = "<group>"; };
+		9A87C6C42395121900DE5B23 /* PL_ProvidenceSimpleKLineVolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceSimpleKLineVolView.m; sourceTree = "<group>"; };
+		9A87C6C52395121900DE5B23 /* PL_ProvidenceSimpleKLineVolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceSimpleKLineVolView.h; sourceTree = "<group>"; };
+		9A87C6C62395121900DE5B23 /* PL_ProvidenceFullScreenKLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceFullScreenKLineView.h; sourceTree = "<group>"; };
+		9A87C6C82395121900DE5B23 /* PL_ProvidenceLineDataProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceLineDataProcess.h; sourceTree = "<group>"; };
+		9A87C6C92395121900DE5B23 /* PL_ProvidenceLineDataProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceLineDataProcess.m; sourceTree = "<group>"; };
+		9A87C6CB2395121900DE5B23 /* PL_ProvidenceListMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceListMenuView.h; sourceTree = "<group>"; };
+		9A87C6CC2395121900DE5B23 /* PL_ProvidenceListMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceListMenuView.m; sourceTree = "<group>"; };
+		9A87C6CE2395121900DE5B23 /* PL_ProvidenceVerticalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceVerticalView.m; sourceTree = "<group>"; };
+		9A87C6CF2395121900DE5B23 /* PL_ProvidenceHorizontalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHorizontalView.h; sourceTree = "<group>"; };
+		9A87C6D02395121900DE5B23 /* PL_ProvidenceVerticalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceVerticalView.h; sourceTree = "<group>"; };
+		9A87C6D12395121900DE5B23 /* PL_ProvidenceHorizontalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_ProvidenceHorizontalView.m; sourceTree = "<group>"; };
+		9A87C6D32395121900DE5B23 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A87C6D42395121900DE5B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A87C6D62395121900DE5B23 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9A87C782239515AF00DE5B23 /* PL_ProvidenceHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_ProvidenceHeader.pch; sourceTree = "<group>"; };
+		9A87C783239515E700DE5B23 /* PL_Providence_user_protocol.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PL_Providence_user_protocol.html; sourceTree = "<group>"; };
+		9A87C7852395167C00DE5B23 /* UIActionSheet+PL_Providence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+PL_Providence.h"; sourceTree = "<group>"; };
+		9A87C7862395167C00DE5B23 /* NSString+PL_Providence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PL_Providence.h"; sourceTree = "<group>"; };
+		9A87C7872395167C00DE5B23 /* MBProgressHUD+PL_Providence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+PL_Providence.h"; sourceTree = "<group>"; };
+		9A87C7882395167C00DE5B23 /* UIFont+PL_Providence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+PL_Providence.h"; sourceTree = "<group>"; };
+		9A87C7892395167C00DE5B23 /* NSObject+PL_Providence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PL_Providence.m"; sourceTree = "<group>"; };
+		9A87C78A2395167C00DE5B23 /* NSString+PL_Providence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PL_Providence.m"; sourceTree = "<group>"; };
+		9A87C78B2395167D00DE5B23 /* UIAlertView+PL_Providence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+PL_Providence.m"; sourceTree = "<group>"; };
+		9A87C78C2395167D00DE5B23 /* UIView+PL_Providence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PL_Providence.m"; sourceTree = "<group>"; };
+		9A87C78D2395167D00DE5B23 /* NSObject+PL_Providence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PL_Providence.h"; sourceTree = "<group>"; };
+		9A87C78E2395167D00DE5B23 /* NSNumber+PL_Providence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+PL_Providence.m"; sourceTree = "<group>"; };
+		9A87C78F2395167D00DE5B23 /* NSNumber+PL_Providence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+PL_Providence.h"; sourceTree = "<group>"; };
+		9A87C7902395167D00DE5B23 /* UIColor+PL_Providence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PL_Providence.m"; sourceTree = "<group>"; };
+		9A87C7912395167D00DE5B23 /* UIFont+PL_Providence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PL_Providence.m"; sourceTree = "<group>"; };
+		9A87C7922395167D00DE5B23 /* UIImage+PL_Providence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PL_Providence.h"; sourceTree = "<group>"; };
+		9A87C7932395167D00DE5B23 /* UIColor+PL_Providence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PL_Providence.h"; sourceTree = "<group>"; };
+		9A87C7942395167D00DE5B23 /* UIImage+PL_Providence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PL_Providence.m"; sourceTree = "<group>"; };
+		9A87C7952395167D00DE5B23 /* UIView+PL_Providence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PL_Providence.h"; sourceTree = "<group>"; };
+		9A87C7962395167D00DE5B23 /* MBProgressHUD+PL_Providence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+PL_Providence.m"; sourceTree = "<group>"; };
+		9A87C7972395167D00DE5B23 /* UIAlertView+PL_Providence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+PL_Providence.h"; sourceTree = "<group>"; };
+		9A87C7982395167D00DE5B23 /* UIActionSheet+PL_Providence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+PL_Providence.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A87C5252395113100DE5B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B009C94161AE1145537A380F /* Pods_ProvidenceFutures.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A87C5402395113500DE5B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A87C54B2395113500DE5B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		486D50DC590DA4A3E36502E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3995F326B8B2F2E726FB3256 /* Pods_ProvidenceFutures.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A7AFAD72397669F00C48D13 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AFAD82397669F00C48D13 /* GTMBase64.h */,
+				9A7AFAD92397669F00C48D13 /* GTMDefines.h */,
+				9A7AFADA2397669F00C48D13 /* GTMBase64.m */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		9A8404662395F3C000EC0B39 /* TopView */ = {
+			isa = PBXGroup;
+			children = (
+				9A8404672395F3C000EC0B39 /* PL_ProvidenceHomeTopView.h */,
+				9A8404682395F3C000EC0B39 /* PL_ProvidenceHomeStockTopCell.m */,
+				9A8404692395F3C000EC0B39 /* PL_ProvidenceHomeTopView.m */,
+				9A84046A2395F3C000EC0B39 /* PL_ProvidenceHomeStockTopCell.h */,
+				9A84046B2395F3C000EC0B39 /* PL_ProvidenceHomeStockTopCell.xib */,
+			);
+			path = TopView;
+			sourceTree = "<group>";
+		};
+		9A84047A2395F3C100EC0B39 /* JMBaseButton */ = {
+			isa = PBXGroup;
+			children = (
+				9A84047B2395F3C100EC0B39 /* PL_ProvidenceBaseButton.m */,
+				9A84047C2395F3C100EC0B39 /* PL_ProvidenceBaseButtonConfig.m */,
+				9A84047D2395F3C100EC0B39 /* PL_ProvidenceBaseButtonConfig.h */,
+				9A84047E2395F3C100EC0B39 /* PL_ProvidenceBaseButton.h */,
+			);
+			path = JMBaseButton;
+			sourceTree = "<group>";
+		};
+		9A8404A12395F75C00EC0B39 /* Deal */ = {
+			isa = PBXGroup;
+			children = (
+				9A31ED5C239911C200DCCAC1 /* PL_ProvidenceDealDyCell.h */,
+				9A31ED5A239911C200DCCAC1 /* PL_ProvidenceDealDyCell.m */,
+				9A31ED5B239911C200DCCAC1 /* PL_ProvidenceDealDyCell.xib */,
+				9A31ED562398F8AC00DCCAC1 /* PL_ProvidenceDealCollectionViewCell.h */,
+				9A31ED552398F8AC00DCCAC1 /* PL_ProvidenceDealCollectionViewCell.m */,
+				9A31ED572398F8AC00DCCAC1 /* PL_ProvidenceDealCollectionViewCell.xib */,
+				9A8404A22395F79D00EC0B39 /* PL_ProvidenceDealController.h */,
+				9A8404A32395F79D00EC0B39 /* PL_ProvidenceDealController.m */,
+				9A8404A52395F86B00EC0B39 /* PL_ProvidenceDealTopView.h */,
+				9A8404A62395F86B00EC0B39 /* PL_ProvidenceDealTopView.m */,
+				9A8404A72395F86B00EC0B39 /* PL_ProvidenceDealTopView.xib */,
+				9A8404AA2396009800EC0B39 /* PL_ProvidenceDealMenuCell.h */,
+				9A8404AB2396009800EC0B39 /* PL_ProvidenceDealMenuCell.m */,
+				9A8404AC2396009800EC0B39 /* PL_ProvidenceDealMenuCell.xib */,
+				9A8404AF239601E000EC0B39 /* PL_ProvidenceDealNameCell.h */,
+				9A8404B0239601E000EC0B39 /* PL_ProvidenceDealNameCell.m */,
+				9A8404B1239601E000EC0B39 /* PL_ProvidenceDealNameCell.xib */,
+				9A8404B4239603D800EC0B39 /* PL_ProvidenceDealCell.h */,
+				9A8404B5239603D800EC0B39 /* PL_ProvidenceDealCell.m */,
+				9A8404B6239603D800EC0B39 /* PL_ProvidenceDealCell.xib */,
+			);
+			path = Deal;
+			sourceTree = "<group>";
+		};
+		9A8404BC23963F0200EC0B39 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				9A8404B923963EFB00EC0B39 /* PL_ProvidenceHomeController.h */,
+				9A8404BA23963EFB00EC0B39 /* PL_ProvidenceHomeController.m */,
+				9A8404BD23963F9100EC0B39 /* PL_ProvidenceHomeNewCell.h */,
+				9A8404BE23963F9100EC0B39 /* PL_ProvidenceHomeNewCell.m */,
+				9A8404BF23963F9100EC0B39 /* PL_ProvidenceHomeNewCell.xib */,
+				9A8404C2239641D100EC0B39 /* PL_ProvidenceHomeBannerCell.h */,
+				9A8404C3239641D100EC0B39 /* PL_ProvidenceHomeBannerCell.m */,
+				9A8404C4239641D100EC0B39 /* PL_ProvidenceHomeBannerCell.xib */,
+				9A8404C72396420000EC0B39 /* PL_ProvidenceHomeMenuCell.h */,
+				9A8404C82396420000EC0B39 /* PL_ProvidenceHomeMenuCell.m */,
+				9A8404C92396420000EC0B39 /* PL_ProvidenceHomeMenuCell.xib */,
+				9A8404CC23964CC800EC0B39 /* PL_ProvidenceStockHeadCell.h */,
+				9A8404CD23964CC800EC0B39 /* PL_ProvidenceStockHeadCell.m */,
+				9A8404CE23964CC800EC0B39 /* PL_ProvidenceStockHeadCell.xib */,
+				9A8404D423964E6E00EC0B39 /* PL_ProvidenceHomrStockCell.h */,
+				9A8404D523964E6E00EC0B39 /* PL_ProvidenceHomrStockCell.m */,
+				9A8404D623964E6E00EC0B39 /* PL_ProvidenceHomrStockCell.xib */,
+				9A8404E323964ED400EC0B39 /* PL_ProvidenceHomeFutureHeadCell.h */,
+				9A8404E423964ED400EC0B39 /* PL_ProvidenceHomeFutureHeadCell.m */,
+				9A8404E523964ED400EC0B39 /* PL_ProvidenceHomeFutureHeadCell.xib */,
+				9A7AFACD23974A4300C48D13 /* PL_ProvidenceHomeReusableView.h */,
+				9A7AFACC23974A4300C48D13 /* PL_ProvidenceHomeReusableView.m */,
+				9A7AFACE23974A4300C48D13 /* PL_ProvidenceHomeReusableView.xib */,
+				9A84045F2395F3C000EC0B39 /* PL_ProvidenceHomeCell.h */,
+				9A8404702395F3C100EC0B39 /* PL_ProvidenceHomeCell.m */,
+				9A8404852395F3C200EC0B39 /* PL_ProvidenceHomeCell.xib */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		9A87C51F2395113100DE5B23 = {
+			isa = PBXGroup;
+			children = (
+				9A87C52A2395113100DE5B23 /* ProvidenceFutures */,
+				9A87C5462395113500DE5B23 /* ProvidenceFuturesTests */,
+				9A87C5512395113500DE5B23 /* ProvidenceFuturesUITests */,
+				9A87C5292395113100DE5B23 /* Products */,
+				FC18FFE8870891DC59BB5A45 /* Pods */,
+				486D50DC590DA4A3E36502E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A87C5292395113100DE5B23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C5282395113100DE5B23 /* 富华期货.app */,
+				9A87C5432395113500DE5B23 /* ProvidenceFuturesTests.xctest */,
+				9A87C54E2395113500DE5B23 /* ProvidenceFuturesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A87C52A2395113100DE5B23 /* ProvidenceFutures */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AFB372397A82000C48D13 /* launch_bg.jpeg */,
+				9A4D721F23A1E817008A624C /* iPhone_2.jpeg */,
+				9A7AFB392397A84900C48D13 /* icon_pf_logo@3x.png */,
+				9A87C782239515AF00DE5B23 /* PL_ProvidenceHeader.pch */,
+				9A87C6D32395121900DE5B23 /* AppDelegate.h */,
+				9A87C5652395121900DE5B23 /* AppDelegate.m */,
+				9A87C6D42395121900DE5B23 /* Assets.xcassets */,
+				9A87C5662395121900DE5B23 /* Classes */,
+				9A87C5602395121800DE5B23 /* PL_ProvidenceGlobalMacro.h */,
+				9A87C5622395121800DE5B23 /* PL_ProvidenceGlobalVariableDefine.h */,
+				9A87C5632395121900DE5B23 /* Info.plist */,
+				9A87C5642395121900DE5B23 /* LaunchScreen.storyboard */,
+				9A87C5612395121800DE5B23 /* main.m */,
+				9A87C6D62395121900DE5B23 /* Main.storyboard */,
+			);
+			path = ProvidenceFutures;
+			sourceTree = "<group>";
+		};
+		9A87C5462395113500DE5B23 /* ProvidenceFuturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C5472395113500DE5B23 /* ProvidenceFuturesTests.m */,
+				9A87C5492395113500DE5B23 /* Info.plist */,
+			);
+			path = ProvidenceFuturesTests;
+			sourceTree = "<group>";
+		};
+		9A87C5512395113500DE5B23 /* ProvidenceFuturesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C5522395113500DE5B23 /* ProvidenceFuturesUITests.m */,
+				9A87C5542395113500DE5B23 /* Info.plist */,
+			);
+			path = ProvidenceFuturesUITests;
+			sourceTree = "<group>";
+		};
+		9A87C5662395121900DE5B23 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C5672395121900DE5B23 /* Catagory */,
+				9A87C57C2395121900DE5B23 /* Sections */,
+				9A87C62F2395121900DE5B23 /* Util */,
+				9A87C6412395121900DE5B23 /* Layout */,
+				9A87C6422395121900DE5B23 /* Common */,
+				9A87C64B2395121900DE5B23 /* Service */,
+				9A87C6852395121900DE5B23 /* Data */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9A87C5672395121900DE5B23 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AFAD72397669F00C48D13 /* GTMBase64 */,
+				9A87C7872395167C00DE5B23 /* MBProgressHUD+PL_Providence.h */,
+				9A87C7962395167D00DE5B23 /* MBProgressHUD+PL_Providence.m */,
+				9A87C78F2395167D00DE5B23 /* NSNumber+PL_Providence.h */,
+				9A87C78E2395167D00DE5B23 /* NSNumber+PL_Providence.m */,
+				9A87C78D2395167D00DE5B23 /* NSObject+PL_Providence.h */,
+				9A87C7892395167C00DE5B23 /* NSObject+PL_Providence.m */,
+				9A87C7862395167C00DE5B23 /* NSString+PL_Providence.h */,
+				9A87C78A2395167C00DE5B23 /* NSString+PL_Providence.m */,
+				9A87C7852395167C00DE5B23 /* UIActionSheet+PL_Providence.h */,
+				9A87C7982395167D00DE5B23 /* UIActionSheet+PL_Providence.m */,
+				9A87C7972395167D00DE5B23 /* UIAlertView+PL_Providence.h */,
+				9A87C78B2395167D00DE5B23 /* UIAlertView+PL_Providence.m */,
+				9A87C7932395167D00DE5B23 /* UIColor+PL_Providence.h */,
+				9A87C7902395167D00DE5B23 /* UIColor+PL_Providence.m */,
+				9A87C7882395167C00DE5B23 /* UIFont+PL_Providence.h */,
+				9A87C7912395167D00DE5B23 /* UIFont+PL_Providence.m */,
+				9A87C7922395167D00DE5B23 /* UIImage+PL_Providence.h */,
+				9A87C7942395167D00DE5B23 /* UIImage+PL_Providence.m */,
+				9A87C7952395167D00DE5B23 /* UIView+PL_Providence.h */,
+				9A87C78C2395167D00DE5B23 /* UIView+PL_Providence.m */,
+				9A31ECF82398A34D00DCCAC1 /* UITextView+PL_Providence.h */,
+				9A31ECF92398A34D00DCCAC1 /* UITextView+PL_Providence.m */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		9A87C57C2395121900DE5B23 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C57D2395121900DE5B23 /* Home */,
+				9A87C5CB2395121900DE5B23 /* Fufures */,
+				9A87C5D02395121900DE5B23 /* Position */,
+				9A87C5F32395121900DE5B23 /* News */,
+				9A87C5FF2395121900DE5B23 /* Me */,
+				9A87C6262395121900DE5B23 /* Login */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		9A87C57D2395121900DE5B23 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C57E2395121900DE5B23 /* Controller */,
+				9A87C58C2395121900DE5B23 /* Model */,
+				9A87C59D2395121900DE5B23 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9A87C57E2395121900DE5B23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A8404BC23963F0200EC0B39 /* home */,
+				9A87C5822395121900DE5B23 /* PL_ProvidenceHomeTheNewDetailVC.h */,
+				9A87C5852395121900DE5B23 /* PL_ProvidenceHomeTheNewDetailVC.m */,
+				9A87C58B2395121900DE5B23 /* PL_ProvidenceHomeScreenLoadVC.h */,
+				9A87C5832395121900DE5B23 /* PL_ProvidenceHomeScreenLoadVC.m */,
+				9A87C58A2395121900DE5B23 /* PL_ProvidenceHomeInfoDetailsVC.h */,
+				9A87C5842395121900DE5B23 /* PL_ProvidenceHomeInfoDetailsVC.m */,
+				9A87C5812395121900DE5B23 /* PL_ProvidenceHomeTheNewVC.h */,
+				9A87C5862395121900DE5B23 /* PL_ProvidenceHomeTheNewVC.m */,
+				9A87C57F2395121900DE5B23 /* PL_ProvidenceHomeStockVC.h */,
+				9A87C5872395121900DE5B23 /* PL_ProvidenceHomeStockVC.m */,
+				9A87C5892395121900DE5B23 /* PL_ProvidenceMarketListProtocol.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A87C58C2395121900DE5B23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AFAD423975E3A00C48D13 /* PL_ProvidenceHomeTheNewModel.h */,
+				9A7AFAD523975E3A00C48D13 /* PL_ProvidenceHomeTheNewModel.m */,
+				9A7AFAD123975D2D00C48D13 /* PL_ProvidenceFavDBManager.h */,
+				9A7AFAD223975D2D00C48D13 /* PL_ProvidenceFavDBManager.m */,
+				9A87C5962395121900DE5B23 /* PL_ProvidenceHomeModel.m */,
+				9A87C58D2395121900DE5B23 /* PL_ProvidenceHomeModel.h */,
+				9A87C5912395121900DE5B23 /* PL_ProvidenceHomeStockTopModel.h */,
+				9A87C59A2395121900DE5B23 /* PL_ProvidenceHomeStockTopModel.m */,
+				9A87C5922395121900DE5B23 /* PL_ProvidenceMarketLogic.h */,
+				9A87C5932395121900DE5B23 /* PL_ProvidenceHomeStockTradeModel.h */,
+				9A87C59C2395121900DE5B23 /* PL_ProvidenceHomeStockTradeModel.m */,
+				9A87C5942395121900DE5B23 /* PL_ProvidenceHomeOrderModel.m */,
+				9A87C59B2395121900DE5B23 /* PL_ProvidenceHomeOrderModel.h */,
+				9A87C5972395121900DE5B23 /* PL_ProvidenceHomeStockModel.h */,
+				9A87C5902395121900DE5B23 /* PL_ProvidenceHomeStockModel.m */,
+				9A87C5992395121900DE5B23 /* PL_ProvidenceMarketLogic.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A87C59D2395121900DE5B23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AFB2723979B6000C48D13 /* PL_ProvidenceHomeDealView.h */,
+				9A7AFB2423979B6000C48D13 /* PL_ProvidenceHomeDealView.m */,
+				9A7AFB2223979B6000C48D13 /* PL_ProvidenceHomeFormHorView.h */,
+				9A7AFB2023979B6000C48D13 /* PL_ProvidenceHomeFormHorView.m */,
+				9A7AFB2C23979B6000C48D13 /* PL_ProvidenceHomeOptionCell.h */,
+				9A7AFB2B23979B6000C48D13 /* PL_ProvidenceHomeOptionCell.m */,
+				9A7AFB2523979B6000C48D13 /* PL_ProvidenceHomeOptionView.h */,
+				9A7AFB1F23979B5F00C48D13 /* PL_ProvidenceHomeOptionView.m */,
+				9A7AFB2923979B6000C48D13 /* PL_ProvidenceHomeStockOptionTopView.h */,
+				9A7AFB2823979B6000C48D13 /* PL_ProvidenceHomeStockOptionTopView.m */,
+				9A7AFB2123979B6000C48D13 /* PL_ProvidenceHomeStockParticularsView.h */,
+				9A7AFB2623979B6000C48D13 /* PL_ProvidenceHomeStockParticularsView.m */,
+				9A7AFB2A23979B6000C48D13 /* PL_ProvidenceStepperView.h */,
+				9A7AFB2323979B6000C48D13 /* PL_ProvidenceStepperView.m */,
+				9A84047A2395F3C100EC0B39 /* JMBaseButton */,
+				9A84045E2395F3C000EC0B39 /* PL_ProvidenceHomeBaseView.h */,
+				9A84045D2395F3C000EC0B39 /* PL_ProvidenceHomeBaseView.m */,
+				9A8404732395F3C100EC0B39 /* PL_ProvidenceHomeStockCell.h */,
+				9A8404612395F3C000EC0B39 /* PL_ProvidenceHomeStockCell.m */,
+				9A8404882395F3C200EC0B39 /* PL_ProvidenceHomeStockView.h */,
+				9A84046F2395F3C100EC0B39 /* PL_ProvidenceHomeStockView.m */,
+				9A8404792395F3C100EC0B39 /* PL_ProvidenceHomeTabControlView.h */,
+				9A8404622395F3C000EC0B39 /* PL_ProvidenceHomeTabControlView.m */,
+				9A8404662395F3C000EC0B39 /* TopView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A87C5CB2395121900DE5B23 /* Fufures */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C5CC2395121900DE5B23 /* PL_ProvidenceHomeMenuFuturesView.m */,
+				9A87C5CD2395121900DE5B23 /* PL_ProvidenceHomeMenuFuturesVC.h */,
+				9A87C5CE2395121900DE5B23 /* PL_ProvidenceHomeMenuFuturesView.h */,
+				9A87C5CF2395121900DE5B23 /* PL_ProvidenceHomeMenuFuturesVC.m */,
+			);
+			path = Fufures;
+			sourceTree = "<group>";
+		};
+		9A87C5D02395121900DE5B23 /* Position */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AFAEB23978D6F00C48D13 /* PL_ProvidenceDealBuyController.h */,
+				9A7AFAF023978D7000C48D13 /* PL_ProvidenceDealBuyController.m */,
+				9A7AFADC23978D6E00C48D13 /* PL_ProvidenceDealHistoryController.h */,
+				9A7AFAF823978D7100C48D13 /* PL_ProvidenceDealHistoryController.m */,
+				9A7AFAE223978D6F00C48D13 /* PL_ProvidenceDealSellViewController.h */,
+				9A7AFAE023978D6F00C48D13 /* PL_ProvidenceDealSellViewController.m */,
+				9A7AFAE123978D6F00C48D13 /* PL_ProvidenceDealMoneyVC.h */,
+				9A7AFAF923978D7100C48D13 /* PL_ProvidenceDealMoneyVC.m */,
+				9A7AFAE523978D6F00C48D13 /* PL_ProvidenceDealMoneyVC.xib */,
+				9A7AFAE423978D6F00C48D13 /* PL_ProvidenceDealVC.h */,
+				9A7AFAEC23978D6F00C48D13 /* PL_ProvidenceDealVC.m */,
+				9A7AFAEA23978D6F00C48D13 /* PL_ProvidenceDealVC.xib */,
+				9A7AFB1523978E8B00C48D13 /* PL_ProvidenceDealTopCell.h */,
+				9A7AFB1623978E8C00C48D13 /* PL_ProvidenceDealTopCell.m */,
+				9A7AFB1723978E8C00C48D13 /* PL_ProvidenceDealTopCell.xib */,
+				9A7AFB1223978E7200C48D13 /* PL_ProvidenceDealDyTopView.h */,
+				9A7AFB1323978E7300C48D13 /* PL_ProvidenceDealDyTopView.m */,
+				9A7AFAE623978D6F00C48D13 /* PL_ProvidenceDealModel.h */,
+				9A7AFAF523978D7000C48D13 /* PL_ProvidenceDealModel.m */,
+				9A7AFAEF23978D7000C48D13 /* PL_ProvidenceDealTodayTradeVC.h */,
+				9A7AFADF23978D6E00C48D13 /* PL_ProvidenceDealTodayTradeVC.m */,
+				9A8404A12395F75C00EC0B39 /* Deal */,
+			);
+			path = Position;
+			sourceTree = "<group>";
+		};
+		9A87C5F32395121900DE5B23 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C5F42395121900DE5B23 /* Controller */,
+				9A87C5FC2395121900DE5B23 /* Model */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		9A87C5F42395121900DE5B23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C5F52395121900DE5B23 /* PL_ProvidencePaperCell.m */,
+				9A87C5F62395121900DE5B23 /* PL_ProvidencePaperDetailVC.m */,
+				9A87C5F72395121900DE5B23 /* PL_ProvidencePaperVC.m */,
+				9A87C5F82395121900DE5B23 /* PL_ProvidencePaperDetailVC.h */,
+				9A87C5F92395121900DE5B23 /* PL_ProvidencePaperCell.h */,
+				9A87C5FA2395121900DE5B23 /* PL_ProvidencePaperCell.xib */,
+				9A87C5FB2395121900DE5B23 /* PL_ProvidencePaperVC.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A87C5FC2395121900DE5B23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AFB3423979CAF00C48D13 /* PL_ProvidencePaperModel.h */,
+				9A7AFB3523979CAF00C48D13 /* PL_ProvidencePaperModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A87C5FF2395121900DE5B23 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6002395121900DE5B23 /* Controller */,
+				9A87C6182395121900DE5B23 /* Model */,
+				9A87C6192395121900DE5B23 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		9A87C6002395121900DE5B23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AFB612397ADB400C48D13 /* PL_ProvidenceSettingChangePassVC.h */,
+				9A7AFB642397ADB400C48D13 /* PL_ProvidenceSettingChangePassVC.m */,
+				9A7AFB652397ADB400C48D13 /* PL_ProvidenceSettingChangePassVC.xib */,
+				9A7AFB672397ADB400C48D13 /* PL_ProvidenceSettingNameVC.h */,
+				9A7AFB6A2397ADB400C48D13 /* PL_ProvidenceSettingNameVC.m */,
+				9A7AFB632397ADB400C48D13 /* PL_ProvidenceSettingNameVC.xib */,
+				9A7AFB692397ADB400C48D13 /* PL_ProvidenceSettingTickVC.h */,
+				9A7AFB682397ADB400C48D13 /* PL_ProvidenceSettingTickVC.m */,
+				9A7AFB622397ADB400C48D13 /* PL_ProvidenceSettingTickVC.xib */,
+				9A7AFB6B2397ADB400C48D13 /* PL_ProvidenceSettingVC.h */,
+				9A7AFB662397ADB400C48D13 /* PL_ProvidenceSettingVC.m */,
+				9A7AFB4C2397ABD900C48D13 /* PL_ProvidenceSettingAboutVC.h */,
+				9A7AFB452397ABD800C48D13 /* PL_ProvidenceSettingAboutVC.m */,
+				9A7AFB4D2397ABD900C48D13 /* PL_ProvidenceSettingAboutVC.xib */,
+				9A7AFB3F2397ABD800C48D13 /* PL_ProvidenceSettingAgreeVC.h */,
+				9A7AFB412397ABD800C48D13 /* PL_ProvidenceSettingAgreeVC.m */,
+				9A7AFB3C2397ABD800C48D13 /* PL_ProvidenceSettingAgreeVC.xib */,
+				9A7AFB482397ABD800C48D13 /* PL_ProvidenceSettingSignVC.h */,
+				9A7AFB432397ABD800C48D13 /* PL_ProvidenceSettingSignVC.m */,
+				9A7AFB462397ABD800C48D13 /* PL_ProvidenceSettingSignVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A87C6182395121900DE5B23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A87C6192395121900DE5B23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AFB732397AEB600C48D13 /* PL_ProvidenceSettingCell.h */,
+				9A7AFB752397AEB600C48D13 /* PL_ProvidenceSettingCell.m */,
+				9A7AFB742397AEB600C48D13 /* PL_ProvidenceSettingCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A87C6262395121900DE5B23 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6272395121900DE5B23 /* PL_ProvidenceRegisteredVC.xib */,
+				9A87C6282395121900DE5B23 /* PL_ProvidenceRegisteredVC.h */,
+				9A87C62B2395121900DE5B23 /* PL_ProvidenceRegisteredVC.m */,
+				9A87C62C2395121900DE5B23 /* PL_ProvidenceLoginManager.h */,
+				9A87C62A2395121900DE5B23 /* PL_ProvidenceLoginManager.m */,
+				9A87C62D2395121900DE5B23 /* PL_ProvidenceLoginVC.xib */,
+				9A87C62E2395121900DE5B23 /* PL_ProvidenceLoginVC.m */,
+				9A87C6292395121900DE5B23 /* PL_ProvidenceLoginVC.h */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9A87C62F2395121900DE5B23 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C63B2395121900DE5B23 /* PL_ProvidenceTool.m */,
+				9A87C6302395121900DE5B23 /* PL_ProvidenceTool.h */,
+				9A87C6312395121900DE5B23 /* PL_ProvidenceEnptyView.xib */,
+				9A87C6322395121900DE5B23 /* PL_ProvidenceDataUsedEngine.h */,
+				9A87C6332395121900DE5B23 /* PL_ProvidenceDateManager.h */,
+				9A87C6342395121900DE5B23 /* PL_ProvidenceDealDataManager.m */,
+				9A87C6352395121900DE5B23 /* PL_ProvidenceWebViewController.m */,
+				9A87C6362395121900DE5B23 /* PL_ProvidenceEnptyView.m */,
+				9A87C6372395121900DE5B23 /* PL_ProvidenceDataManager.m */,
+				9A87C6382395121900DE5B23 /* PL_ProvidenceIndentTextField.m */,
+				9A87C6392395121900DE5B23 /* PL_ProvidenceDateManager.m */,
+				9A87C63A2395121900DE5B23 /* PL_ProvidenceDataUsedEngine.m */,
+				9A87C63C2395121900DE5B23 /* PL_ProvidenceEnptyView.h */,
+				9A87C63D2395121900DE5B23 /* PL_ProvidenceWebViewController.h */,
+				9A87C63E2395121900DE5B23 /* PL_ProvidenceDealDataManager.h */,
+				9A87C63F2395121900DE5B23 /* PL_ProvidenceIndentTextField.h */,
+				9A87C6402395121900DE5B23 /* PL_ProvidenceDataManager.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9A87C6412395121900DE5B23 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		9A87C6422395121900DE5B23 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AFB7B2397B05D00C48D13 /* PL_ProvidenceBaseVC.h */,
+				9A7AFB782397B05D00C48D13 /* PL_ProvidenceBaseVC.m */,
+				9A7AFB7E2397B05D00C48D13 /* PL_ProvidenceDealManager.h */,
+				9A7AFB7F2397B05D00C48D13 /* PL_ProvidenceDealManager.m */,
+				9A7AFB7A2397B05D00C48D13 /* PL_ProvidenceNavigationVC.h */,
+				9A7AFB792397B05D00C48D13 /* PL_ProvidenceNavigationVC.m */,
+				9A7AFB7C2397B05D00C48D13 /* PL_ProvidenceTabVC.h */,
+				9A7AFB7D2397B05D00C48D13 /* PL_ProvidenceTabVC.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9A87C64B2395121900DE5B23 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C64D2395121900DE5B23 /* Network */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9A87C64D2395121900DE5B23 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AFB862397B70600C48D13 /* PL_ProvidenceHttpRequest.h */,
+				9A7AFB842397B70600C48D13 /* PL_ProvidenceHttpRequest.m */,
+				9A7AFB852397B70600C48D13 /* PL_ProvidenceHttpUrl.h */,
+				9A87C6532395121900DE5B23 /* SSJNetWork */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9A87C6532395121900DE5B23 /* SSJNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6542395121900DE5B23 /* Classes */,
+				9A87C6832395121900DE5B23 /* Assets */,
+			);
+			path = SSJNetWork;
+			sourceTree = "<group>";
+		};
+		9A87C6542395121900DE5B23 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6552395121900DE5B23 /* Catagory */,
+				9A87C6602395121900DE5B23 /* Cache */,
+				9A87C6632395121900DE5B23 /* SSJNetWork.h */,
+				9A87C6642395121900DE5B23 /* .gitkeep */,
+				9A87C6652395121900DE5B23 /* Support Files */,
+				9A87C6672395121900DE5B23 /* Log */,
+				9A87C6722395121900DE5B23 /* Request */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9A87C6552395121900DE5B23 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6562395121900DE5B23 /* NSObject+SSJNetWork.m */,
+				9A87C6572395121900DE5B23 /* UIViewController+SSJNetWork.m */,
+				9A87C6582395121900DE5B23 /* NSString+SSJNetWork.m */,
+				9A87C6592395121900DE5B23 /* NSDictionary+SSJNetWork.m */,
+				9A87C65A2395121900DE5B23 /* UINavigationController+SSJNetWork.h */,
+				9A87C65B2395121900DE5B23 /* NSObject+SSJNetWork.h */,
+				9A87C65C2395121900DE5B23 /* UIViewController+SSJNetWork.h */,
+				9A87C65D2395121900DE5B23 /* UINavigationController+SSJNetWork.m */,
+				9A87C65E2395121900DE5B23 /* NSDictionary+SSJNetWork.h */,
+				9A87C65F2395121900DE5B23 /* NSString+SSJNetWork.h */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		9A87C6602395121900DE5B23 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6612395121900DE5B23 /* SSJMemCacheDataCenter.h */,
+				9A87C6622395121900DE5B23 /* SSJMemCacheDataCenter.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		9A87C6652395121900DE5B23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6662395121900DE5B23 /* SSJNetworkingDefines.h */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		9A87C6672395121900DE5B23 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6682395121900DE5B23 /* NEHTTPEyeViewController.m */,
+				9A87C6692395121900DE5B23 /* SSJLogManager.m */,
+				9A87C66A2395121900DE5B23 /* NEHTTPModelManager.h */,
+				9A87C66B2395121900DE5B23 /* SSJNetWorkLogHelper.m */,
+				9A87C66C2395121900DE5B23 /* NEHTTPEyeDetailViewController.m */,
+				9A87C66D2395121900DE5B23 /* NEHTTPEyeViewController.h */,
+				9A87C66E2395121900DE5B23 /* SSJNetWorkLogHelper.h */,
+				9A87C66F2395121900DE5B23 /* SSJLogManager.h */,
+				9A87C6702395121900DE5B23 /* NEHTTPModelManager.m */,
+				9A87C6712395121900DE5B23 /* NEHTTPEyeDetailViewController.h */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		9A87C6722395121900DE5B23 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6732395121900DE5B23 /* SSJApiRequestManager.m */,
+				9A87C6742395121900DE5B23 /* SSJNetWorkConfig.m */,
+				9A87C6752395121900DE5B23 /* SSJApiProxy.h */,
+				9A87C6762395121900DE5B23 /* SSJNetworkRequestConfig.h */,
+				9A87C6772395121900DE5B23 /* SSJURLRequestManager.h */,
+				9A87C6782395121900DE5B23 /* SSJNetWorkHelper.m */,
+				9A87C6792395121900DE5B23 /* SSJHTTPSessionModel.m */,
+				9A87C67A2395121900DE5B23 /* SSUploadTaskRequest.h */,
+				9A87C67B2395121900DE5B23 /* SSJApiRequestManager.h */,
+				9A87C67C2395121900DE5B23 /* SSJApiProxy.m */,
+				9A87C67D2395121900DE5B23 /* SSJNetWorkConfig.h */,
+				9A87C67E2395121900DE5B23 /* SSUploadTaskRequest.m */,
+				9A87C67F2395121900DE5B23 /* SSJHTTPSessionModel.h */,
+				9A87C6802395121900DE5B23 /* SSJNetWorkHelper.h */,
+				9A87C6812395121900DE5B23 /* SSJURLRequestManager.m */,
+				9A87C6822395121900DE5B23 /* SSJNetworkRequestConfig.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		9A87C6832395121900DE5B23 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6842395121900DE5B23 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9A87C6852395121900DE5B23 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C783239515E700DE5B23 /* PL_Providence_user_protocol.html */,
+				9A87C6862395121900DE5B23 /* KLine */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9A87C6862395121900DE5B23 /* KLine */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6872395121900DE5B23 /* GLKLineKit */,
+				9A87C6BE2395121900DE5B23 /* CustomClass */,
+			);
+			path = KLine;
+			sourceTree = "<group>";
+		};
+		9A87C6872395121900DE5B23 /* GLKLineKit */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6882395121900DE5B23 /* DataCenter */,
+				9A87C68C2395121900DE5B23 /* KLineDataLogic */,
+				9A87C6912395121900DE5B23 /* Config */,
+				9A87C6972395121900DE5B23 /* UtilityTool */,
+				9A87C69C2395121900DE5B23 /* Model */,
+				9A87C69F2395121900DE5B23 /* View */,
+				9A87C6A22395121900DE5B23 /* DrawLogic */,
+				9A87C6BA2395121900DE5B23 /* Header */,
+			);
+			path = GLKLineKit;
+			sourceTree = "<group>";
+		};
+		9A87C6882395121900DE5B23 /* DataCenter */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6892395121900DE5B23 /* DataCenterProtocol.h */,
+				9A87C68A2395121900DE5B23 /* DataCenter.m */,
+				9A87C68B2395121900DE5B23 /* DataCenter.h */,
+			);
+			path = DataCenter;
+			sourceTree = "<group>";
+		};
+		9A87C68C2395121900DE5B23 /* KLineDataLogic */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C68D2395121900DE5B23 /* PL_ProvidenceLineDataLogic.m */,
+				9A87C68E2395121900DE5B23 /* PL_ProvidenceLineIndicatorLogic.m */,
+				9A87C68F2395121900DE5B23 /* PL_ProvidenceLineDataLogic.h */,
+				9A87C6902395121900DE5B23 /* PL_ProvidenceLineIndicatorLogic.h */,
+			);
+			path = KLineDataLogic;
+			sourceTree = "<group>";
+		};
+		9A87C6912395121900DE5B23 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6922395121900DE5B23 /* KLineViewProtocol.h */,
+				9A87C6932395121900DE5B23 /* PL_ProvidenceLineVolViewConfig.m */,
+				9A87C6942395121900DE5B23 /* PL_ProvidenceLineViewConfig.h */,
+				9A87C6952395121900DE5B23 /* PL_ProvidenceLineVolViewConfig.h */,
+				9A87C6962395121900DE5B23 /* PL_ProvidenceLineViewConfig.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9A87C6972395121900DE5B23 /* UtilityTool */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6982395121900DE5B23 /* NSNumber+StringFormatter.m */,
+				9A87C6992395121900DE5B23 /* NSValue+GLExtremeValue.h */,
+				9A87C69A2395121900DE5B23 /* NSNumber+StringFormatter.h */,
+				9A87C69B2395121900DE5B23 /* NSValue+GLExtremeValue.m */,
+			);
+			path = UtilityTool;
+			sourceTree = "<group>";
+		};
+		9A87C69C2395121900DE5B23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C69D2395121900DE5B23 /* PL_ProvidenceKLineModel.m */,
+				9A87C69E2395121900DE5B23 /* PL_ProvidenceKLineModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A87C69F2395121900DE5B23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6A02395121900DE5B23 /* PL_ProvidenceZSHKLineView.m */,
+				9A87C6A12395121900DE5B23 /* PL_ProvidenceZSHKLineView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A87C6A22395121900DE5B23 /* DrawLogic */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6A32395121900DE5B23 /* PL_ProvidenceLineMADrawLogic.m */,
+				9A87C6A42395121900DE5B23 /* PL_ProvidenceLineVolMADrawLogic.h */,
+				9A87C6A52395121900DE5B23 /* PL_ProvidenceBaseDrawLogic.m */,
+				9A87C6A62395121900DE5B23 /* PL_ProvidenceLineBGDrawLogic.h */,
+				9A87C6A72395121900DE5B23 /* PL_ProvidenceLineKDJDrawLogic.h */,
+				9A87C6A82395121900DE5B23 /* PL_ProvidenceLineMACDDrawLogic.h */,
+				9A87C6A92395121900DE5B23 /* PL_ProvidenceLineDrawLogic.m */,
+				9A87C6AA2395121900DE5B23 /* PL_ProvidenceLineTimeDrawLogic.h */,
+				9A87C6AB2395121900DE5B23 /* PL_ProvidenceLineVolDrawLogic.m */,
+				9A87C6AC2395121900DE5B23 /* PL_ProvidenceLineRSIDrawLogic.h */,
+				9A87C6AD2395121900DE5B23 /* PL_ProvidenceLineBOLLDrawLogic.h */,
+				9A87C6AE2395121900DE5B23 /* PL_ProvidenceLineBGDrawLogic.m */,
+				9A87C6AF2395121900DE5B23 /* PL_ProvidenceBaseDrawLogic.h */,
+				9A87C6B02395121900DE5B23 /* PL_ProvidenceChartDrawProtocol.h */,
+				9A87C6B12395121900DE5B23 /* PL_ProvidenceLineVolMADrawLogic.m */,
+				9A87C6B22395121900DE5B23 /* PL_ProvidenceLineMADrawLogic.h */,
+				9A87C6B32395121900DE5B23 /* PL_ProvidenceLineDrawLogic.h */,
+				9A87C6B42395121900DE5B23 /* PL_ProvidenceLineMACDDrawLogic.m */,
+				9A87C6B52395121900DE5B23 /* PL_ProvidenceLineKDJDrawLogic.m */,
+				9A87C6B62395121900DE5B23 /* PL_ProvidenceLineRSIDrawLogic.m */,
+				9A87C6B72395121900DE5B23 /* PL_ProvidenceLineVolDrawLogic.h */,
+				9A87C6B82395121900DE5B23 /* PL_ProvidenceLineTimeDrawLogic.m */,
+				9A87C6B92395121900DE5B23 /* PL_ProvidenceLineBOLLDrawLogic.m */,
+			);
+			path = DrawLogic;
+			sourceTree = "<group>";
+		};
+		9A87C6BA2395121900DE5B23 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6BB2395121900DE5B23 /* PL_ProvidenceConstantDefinition.m */,
+				9A87C6BC2395121900DE5B23 /* PL_ProvidenceConstantDefinition.h */,
+				9A87C6BD2395121900DE5B23 /* GLKLineKit.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		9A87C6BE2395121900DE5B23 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6BF2395121900DE5B23 /* DetailView */,
+				9A87C6C22395121900DE5B23 /* CustomKLineView */,
+				9A87C6C72395121900DE5B23 /* DataProcess */,
+				9A87C6CA2395121900DE5B23 /* ListView */,
+				9A87C6CD2395121900DE5B23 /* ReticleLine */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		9A87C6BF2395121900DE5B23 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6C02395121900DE5B23 /* PL_ProvidenceDataCenter.m */,
+				9A87C6C12395121900DE5B23 /* PL_ProvidenceDataCenter.h */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		9A87C6C22395121900DE5B23 /* CustomKLineView */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6C32395121900DE5B23 /* PL_ProvidenceFullScreenKLineView.m */,
+				9A87C6C42395121900DE5B23 /* PL_ProvidenceSimpleKLineVolView.m */,
+				9A87C6C52395121900DE5B23 /* PL_ProvidenceSimpleKLineVolView.h */,
+				9A87C6C62395121900DE5B23 /* PL_ProvidenceFullScreenKLineView.h */,
+			);
+			path = CustomKLineView;
+			sourceTree = "<group>";
+		};
+		9A87C6C72395121900DE5B23 /* DataProcess */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6C82395121900DE5B23 /* PL_ProvidenceLineDataProcess.h */,
+				9A87C6C92395121900DE5B23 /* PL_ProvidenceLineDataProcess.m */,
+			);
+			path = DataProcess;
+			sourceTree = "<group>";
+		};
+		9A87C6CA2395121900DE5B23 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6CB2395121900DE5B23 /* PL_ProvidenceListMenuView.h */,
+				9A87C6CC2395121900DE5B23 /* PL_ProvidenceListMenuView.m */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		9A87C6CD2395121900DE5B23 /* ReticleLine */ = {
+			isa = PBXGroup;
+			children = (
+				9A87C6CE2395121900DE5B23 /* PL_ProvidenceVerticalView.m */,
+				9A87C6CF2395121900DE5B23 /* PL_ProvidenceHorizontalView.h */,
+				9A87C6D02395121900DE5B23 /* PL_ProvidenceVerticalView.h */,
+				9A87C6D12395121900DE5B23 /* PL_ProvidenceHorizontalView.m */,
+			);
+			path = ReticleLine;
+			sourceTree = "<group>";
+		};
+		FC18FFE8870891DC59BB5A45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16F0248B81120A317D9E5BBA /* Pods-ProvidenceFutures.debug.xcconfig */,
+				3D6F21E7C9112DF408A17B98 /* Pods-ProvidenceFutures.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A87C5272395113100DE5B23 /* ProvidenceFutures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A87C5572395113500DE5B23 /* Build configuration list for PBXNativeTarget "ProvidenceFutures" */;
+			buildPhases = (
+				B1B0EC26B70BFDDA2855FADC /* [CP] Check Pods Manifest.lock */,
+				9A87C5242395113100DE5B23 /* Sources */,
+				9A87C5252395113100DE5B23 /* Frameworks */,
+				9A87C5262395113100DE5B23 /* Resources */,
+				5DB5AEA8E2CCCCD567F99836 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProvidenceFutures;
+			productName = ProvidenceFutures;
+			productReference = 9A87C5282395113100DE5B23 /* 富华期货.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A87C5422395113500DE5B23 /* ProvidenceFuturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A87C55A2395113500DE5B23 /* Build configuration list for PBXNativeTarget "ProvidenceFuturesTests" */;
+			buildPhases = (
+				9A87C53F2395113500DE5B23 /* Sources */,
+				9A87C5402395113500DE5B23 /* Frameworks */,
+				9A87C5412395113500DE5B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A87C5452395113500DE5B23 /* PBXTargetDependency */,
+			);
+			name = ProvidenceFuturesTests;
+			productName = ProvidenceFuturesTests;
+			productReference = 9A87C5432395113500DE5B23 /* ProvidenceFuturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A87C54D2395113500DE5B23 /* ProvidenceFuturesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A87C55D2395113500DE5B23 /* Build configuration list for PBXNativeTarget "ProvidenceFuturesUITests" */;
+			buildPhases = (
+				9A87C54A2395113500DE5B23 /* Sources */,
+				9A87C54B2395113500DE5B23 /* Frameworks */,
+				9A87C54C2395113500DE5B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A87C5502395113500DE5B23 /* PBXTargetDependency */,
+			);
+			name = ProvidenceFuturesUITests;
+			productName = ProvidenceFuturesUITests;
+			productReference = 9A87C54E2395113500DE5B23 /* ProvidenceFuturesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A87C5202395113100DE5B23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PL_Providence;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = qhwr;
+				TargetAttributes = {
+					9A87C5272395113100DE5B23 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					9A87C5422395113500DE5B23 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 9A87C5272395113100DE5B23;
+					};
+					9A87C54D2395113500DE5B23 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 9A87C5272395113100DE5B23;
+					};
+				};
+			};
+			buildConfigurationList = 9A87C5232395113100DE5B23 /* Build configuration list for PBXProject "ProvidenceFutures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A87C51F2395113100DE5B23;
+			productRefGroup = 9A87C5292395113100DE5B23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A87C5272395113100DE5B23 /* ProvidenceFutures */,
+				9A87C5422395113500DE5B23 /* ProvidenceFuturesTests */,
+				9A87C54D2395113500DE5B23 /* ProvidenceFuturesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A87C5262395113100DE5B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7AFB6F2397ADB500C48D13 /* PL_ProvidenceSettingChangePassVC.xib in Resources */,
+				9A7AFB3A2397A84A00C48D13 /* icon_pf_logo@3x.png in Resources */,
+				9A87C6D82395121900DE5B23 /* Info.plist in Resources */,
+				9A8404912395F3C200EC0B39 /* PL_ProvidenceHomeStockTopCell.xib in Resources */,
+				9A87C7542395121A00DE5B23 /* .gitkeep in Resources */,
+				9A87C7802395121A00DE5B23 /* Assets.xcassets in Resources */,
+				9A7AFB0223978D7100C48D13 /* PL_ProvidenceDealVC.xib in Resources */,
+				9A87C73F2395121A00DE5B23 /* PL_ProvidenceEnptyView.xib in Resources */,
+				9A4D722023A1E817008A624C /* iPhone_2.jpeg in Resources */,
+				9A87C784239515E700DE5B23 /* PL_Providence_user_protocol.html in Resources */,
+				9A8404E723964ED400EC0B39 /* PL_ProvidenceHomeFutureHeadCell.xib in Resources */,
+				9A8404B8239603D800EC0B39 /* PL_ProvidenceDealCell.xib in Resources */,
+				9A8404B3239601E000EC0B39 /* PL_ProvidenceDealNameCell.xib in Resources */,
+				9A7AFB0023978D7100C48D13 /* PL_ProvidenceDealMoneyVC.xib in Resources */,
+				9A7AFB762397AEB600C48D13 /* PL_ProvidenceSettingCell.xib in Resources */,
+				9A8404A92395F86B00EC0B39 /* PL_ProvidenceDealTopView.xib in Resources */,
+				9A7AFB382397A82000C48D13 /* launch_bg.jpeg in Resources */,
+				9A7AFB522397ABD900C48D13 /* PL_ProvidenceSettingAgreeVC.xib in Resources */,
+				9A8404D823964E6E00EC0B39 /* PL_ProvidenceHomrStockCell.xib in Resources */,
+				9A87C73D2395121A00DE5B23 /* PL_ProvidenceLoginVC.xib in Resources */,
+				9A31ED592398F8AC00DCCAC1 /* PL_ProvidenceDealCollectionViewCell.xib in Resources */,
+				9A8404C6239641D100EC0B39 /* PL_ProvidenceHomeBannerCell.xib in Resources */,
+				9A7AFB6D2397ADB500C48D13 /* PL_ProvidenceSettingNameVC.xib in Resources */,
+				9A7AFB5D2397ABD900C48D13 /* PL_ProvidenceSettingAboutVC.xib in Resources */,
+				9A87C6D92395121900DE5B23 /* LaunchScreen.storyboard in Resources */,
+				9A7AFB592397ABD900C48D13 /* PL_ProvidenceSettingSignVC.xib in Resources */,
+				9A8404C123963F9100EC0B39 /* PL_ProvidenceHomeNewCell.xib in Resources */,
+				9A87C73A2395121A00DE5B23 /* PL_ProvidenceRegisteredVC.xib in Resources */,
+				9A84049F2395F3C200EC0B39 /* PL_ProvidenceHomeCell.xib in Resources */,
+				9A87C7242395121A00DE5B23 /* PL_ProvidencePaperCell.xib in Resources */,
+				9A7AFB1923978E8C00C48D13 /* PL_ProvidenceDealTopCell.xib in Resources */,
+				9A8404CB2396420000EC0B39 /* PL_ProvidenceHomeMenuCell.xib in Resources */,
+				9A7AFB6C2397ADB500C48D13 /* PL_ProvidenceSettingTickVC.xib in Resources */,
+				9A87C7812395121A00DE5B23 /* Main.storyboard in Resources */,
+				9A87C7622395121A00DE5B23 /* .gitkeep in Resources */,
+				9A7AFAD023974A4300C48D13 /* PL_ProvidenceHomeReusableView.xib in Resources */,
+				9A31ED5E239911C200DCCAC1 /* PL_ProvidenceDealDyCell.xib in Resources */,
+				9A8404AE2396009800EC0B39 /* PL_ProvidenceDealMenuCell.xib in Resources */,
+				9A8404D023964CC800EC0B39 /* PL_ProvidenceStockHeadCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A87C5412395113500DE5B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A87C54C2395113500DE5B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DB5AEA8E2CCCCD567F99836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProvidenceFutures/Pods-ProvidenceFutures-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProvidenceFutures/Pods-ProvidenceFutures-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProvidenceFutures/Pods-ProvidenceFutures-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1B0EC26B70BFDDA2855FADC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProvidenceFutures-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A87C5242395113100DE5B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A87C6DA2395121900DE5B23 /* AppDelegate.m in Sources */,
+				9A87C79D2395167D00DE5B23 /* NSNumber+PL_Providence.m in Sources */,
+				9A87C75C2395121A00DE5B23 /* SSJNetWorkHelper.m in Sources */,
+				9A87C7432395121A00DE5B23 /* PL_ProvidenceDataManager.m in Sources */,
+				9A7AFAFF23978D7100C48D13 /* PL_ProvidenceDealSellViewController.m in Sources */,
+				9A87C7552395121A00DE5B23 /* NEHTTPEyeViewController.m in Sources */,
+				9A8404A42395F79D00EC0B39 /* PL_ProvidenceDealController.m in Sources */,
+				9A87C7662395121A00DE5B23 /* PL_ProvidenceLineVolViewConfig.m in Sources */,
+				9A87C77C2395121A00DE5B23 /* PL_ProvidenceListMenuView.m in Sources */,
+				9A87C7602395121A00DE5B23 /* SSJURLRequestManager.m in Sources */,
+				9A87C6ED2395121900DE5B23 /* PL_ProvidenceHomeStockModel.m in Sources */,
+				9A8404992395F3C200EC0B39 /* PL_ProvidenceBaseButton.m in Sources */,
+				9A87C76A2395121A00DE5B23 /* PL_ProvidenceKLineModel.m in Sources */,
+				9A8404C023963F9100EC0B39 /* PL_ProvidenceHomeNewCell.m in Sources */,
+				9A87C7672395121A00DE5B23 /* PL_ProvidenceLineViewConfig.m in Sources */,
+				9A87C74F2395121A00DE5B23 /* UIViewController+SSJNetWork.m in Sources */,
+				9A87C7402395121A00DE5B23 /* PL_ProvidenceDealDataManager.m in Sources */,
+				9A7AFB802397B05D00C48D13 /* PL_ProvidenceBaseVC.m in Sources */,
+				9A87C7642395121A00DE5B23 /* PL_ProvidenceLineDataLogic.m in Sources */,
+				9A31ED582398F8AC00DCCAC1 /* PL_ProvidenceDealCollectionViewCell.m in Sources */,
+				9A87C79C2395167D00DE5B23 /* UIView+PL_Providence.m in Sources */,
+				9A8404902395F3C200EC0B39 /* PL_ProvidenceHomeTopView.m in Sources */,
+				9A87C73E2395121A00DE5B23 /* PL_ProvidenceLoginVC.m in Sources */,
+				9A7AFAD623975E3A00C48D13 /* PL_ProvidenceHomeTheNewModel.m in Sources */,
+				9A87C7412395121A00DE5B23 /* PL_ProvidenceWebViewController.m in Sources */,
+				9A87C7752395121A00DE5B23 /* PL_ProvidenceLineTimeDrawLogic.m in Sources */,
+				9A87C7472395121A00DE5B23 /* PL_ProvidenceTool.m in Sources */,
+				9A87C7712395121A00DE5B23 /* PL_ProvidenceLineVolMADrawLogic.m in Sources */,
+				9A87C70C2395121A00DE5B23 /* PL_ProvidenceHomeMenuFuturesVC.m in Sources */,
+				9A7AFADB2397669F00C48D13 /* GTMBase64.m in Sources */,
+				9A87C6EF2395121900DE5B23 /* PL_ProvidenceHomeModel.m in Sources */,
+				9A8404E623964ED400EC0B39 /* PL_ProvidenceHomeFutureHeadCell.m in Sources */,
+				9A7AFB542397ABD900C48D13 /* PL_ProvidenceSettingAgreeVC.m in Sources */,
+				9A87C7612395121A00DE5B23 /* SSJNetworkRequestConfig.m in Sources */,
+				9A7AFB0323978D7100C48D13 /* PL_ProvidenceDealVC.m in Sources */,
+				9A87C79E2395167D00DE5B23 /* UIColor+PL_Providence.m in Sources */,
+				9A87C73B2395121A00DE5B23 /* PL_ProvidenceLoginManager.m in Sources */,
+				9A7AFB0E23978D7100C48D13 /* PL_ProvidenceDealHistoryController.m in Sources */,
+				9A7AFB1823978E8C00C48D13 /* PL_ProvidenceDealTopCell.m in Sources */,
+				9A7AFB0623978D7100C48D13 /* PL_ProvidenceDealBuyController.m in Sources */,
+				9A87C6E62395121900DE5B23 /* PL_ProvidenceHomeInfoDetailsVC.m in Sources */,
+				9A7AFB3623979CAF00C48D13 /* PL_ProvidencePaperModel.m in Sources */,
+				9A8404CF23964CC800EC0B39 /* PL_ProvidenceStockHeadCell.m in Sources */,
+				9A31ECFA2398A34D00DCCAC1 /* UITextView+PL_Providence.m in Sources */,
+				9A87C7522395121A00DE5B23 /* UINavigationController+SSJNetWork.m in Sources */,
+				9A87C6D72395121900DE5B23 /* main.m in Sources */,
+				9A87C6F22395121A00DE5B23 /* PL_ProvidenceHomeStockTradeModel.m in Sources */,
+				9A8404C5239641D100EC0B39 /* PL_ProvidenceHomeBannerCell.m in Sources */,
+				9A87C6E52395121900DE5B23 /* PL_ProvidenceHomeScreenLoadVC.m in Sources */,
+				9A7AFB712397ADB500C48D13 /* PL_ProvidenceSettingTickVC.m in Sources */,
+				9A87C7A02395167D00DE5B23 /* UIImage+PL_Providence.m in Sources */,
+				9A84048C2395F3C200EC0B39 /* PL_ProvidenceHomeStockCell.m in Sources */,
+				9A87C76F2395121A00DE5B23 /* PL_ProvidenceLineVolDrawLogic.m in Sources */,
+				9A87C7722395121A00DE5B23 /* PL_ProvidenceLineMACDDrawLogic.m in Sources */,
+				9A87C7442395121A00DE5B23 /* PL_ProvidenceIndentTextField.m in Sources */,
+				9A7AFB3023979B6000C48D13 /* PL_ProvidenceHomeDealView.m in Sources */,
+				9A87C74E2395121A00DE5B23 /* NSObject+SSJNetWork.m in Sources */,
+				9A8404BB23963EFB00EC0B39 /* PL_ProvidenceHomeController.m in Sources */,
+				9A8404B7239603D800EC0B39 /* PL_ProvidenceDealCell.m in Sources */,
+				9A87C75D2395121A00DE5B23 /* SSJHTTPSessionModel.m in Sources */,
+				9A87C7792395121A00DE5B23 /* PL_ProvidenceFullScreenKLineView.m in Sources */,
+				9A8404D723964E6E00EC0B39 /* PL_ProvidenceHomrStockCell.m in Sources */,
+				9A31ED5D239911C200DCCAC1 /* PL_ProvidenceDealDyCell.m in Sources */,
+				9A87C7692395121A00DE5B23 /* NSValue+GLExtremeValue.m in Sources */,
+				9A87C75A2395121A00DE5B23 /* SSJApiRequestManager.m in Sources */,
+				9A8404932395F3C200EC0B39 /* PL_ProvidenceHomeCell.m in Sources */,
+				9A84048D2395F3C200EC0B39 /* PL_ProvidenceHomeTabControlView.m in Sources */,
+				9A84049A2395F3C200EC0B39 /* PL_ProvidenceBaseButtonConfig.m in Sources */,
+				9A87C7502395121A00DE5B23 /* NSString+SSJNetWork.m in Sources */,
+				9A87C7742395121A00DE5B23 /* PL_ProvidenceLineRSIDrawLogic.m in Sources */,
+				9A7AFB702397ADB500C48D13 /* PL_ProvidenceSettingVC.m in Sources */,
+				9A87C7222395121A00DE5B23 /* PL_ProvidencePaperDetailVC.m in Sources */,
+				9A8404AD2396009800EC0B39 /* PL_ProvidenceDealMenuCell.m in Sources */,
+				9A87C77D2395121A00DE5B23 /* PL_ProvidenceVerticalView.m in Sources */,
+				9A87C77E2395121A00DE5B23 /* PL_ProvidenceHorizontalView.m in Sources */,
+				9A87C79A2395167D00DE5B23 /* NSString+PL_Providence.m in Sources */,
+				9A87C75B2395121A00DE5B23 /* SSJNetWorkConfig.m in Sources */,
+				9A87C75E2395121A00DE5B23 /* SSJApiProxy.m in Sources */,
+				9A87C7782395121A00DE5B23 /* PL_ProvidenceDataCenter.m in Sources */,
+				9A87C7422395121A00DE5B23 /* PL_ProvidenceEnptyView.m in Sources */,
+				9A87C7562395121A00DE5B23 /* SSJLogManager.m in Sources */,
+				9A87C6EE2395121900DE5B23 /* PL_ProvidenceHomeOrderModel.m in Sources */,
+				9A87C7732395121A00DE5B23 /* PL_ProvidenceLineKDJDrawLogic.m in Sources */,
+				9A7AFB832397B05D00C48D13 /* PL_ProvidenceDealManager.m in Sources */,
+				9A87C6E92395121900DE5B23 /* PL_ProvidenceHomeStockVC.m in Sources */,
+				9A87C7A12395167D00DE5B23 /* MBProgressHUD+PL_Providence.m in Sources */,
+				9A7AFAD323975D2D00C48D13 /* PL_ProvidenceFavDBManager.m in Sources */,
+				9A8404A82395F86B00EC0B39 /* PL_ProvidenceDealTopView.m in Sources */,
+				9A7AFB3323979B6000C48D13 /* PL_ProvidenceHomeOptionCell.m in Sources */,
+				9A7AFB812397B05D00C48D13 /* PL_ProvidenceNavigationVC.m in Sources */,
+				9A7AFB2F23979B6000C48D13 /* PL_ProvidenceStepperView.m in Sources */,
+				9A87C6E72395121900DE5B23 /* PL_ProvidenceHomeTheNewDetailVC.m in Sources */,
+				9A7AFB562397ABD900C48D13 /* PL_ProvidenceSettingSignVC.m in Sources */,
+				9A87C79F2395167D00DE5B23 /* UIFont+PL_Providence.m in Sources */,
+				9A7AFB2D23979B6000C48D13 /* PL_ProvidenceHomeOptionView.m in Sources */,
+				9A87C7682395121A00DE5B23 /* NSNumber+StringFormatter.m in Sources */,
+				9A87C7572395121A00DE5B23 /* SSJNetWorkLogHelper.m in Sources */,
+				9A87C7592395121A00DE5B23 /* NEHTTPModelManager.m in Sources */,
+				9A87C7762395121A00DE5B23 /* PL_ProvidenceLineBOLLDrawLogic.m in Sources */,
+				9A7AFB6E2397ADB500C48D13 /* PL_ProvidenceSettingChangePassVC.m in Sources */,
+				9A87C76E2395121A00DE5B23 /* PL_ProvidenceLineDrawLogic.m in Sources */,
+				9A87C7212395121A00DE5B23 /* PL_ProvidencePaperCell.m in Sources */,
+				9A84048F2395F3C200EC0B39 /* PL_ProvidenceHomeStockTopCell.m in Sources */,
+				9A87C6F12395121A00DE5B23 /* PL_ProvidenceHomeStockTopModel.m in Sources */,
+				9A7AFB0B23978D7100C48D13 /* PL_ProvidenceDealModel.m in Sources */,
+				9A87C7452395121A00DE5B23 /* PL_ProvidenceDateManager.m in Sources */,
+				9A7AFB822397B05D00C48D13 /* PL_ProvidenceTabVC.m in Sources */,
+				9A87C7582395121A00DE5B23 /* NEHTTPEyeDetailViewController.m in Sources */,
+				9A7AFB3123979B6000C48D13 /* PL_ProvidenceHomeStockParticularsView.m in Sources */,
+				9A87C75F2395121A00DE5B23 /* SSUploadTaskRequest.m in Sources */,
+				9A7AFB0F23978D7100C48D13 /* PL_ProvidenceDealMoneyVC.m in Sources */,
+				9A87C79B2395167D00DE5B23 /* UIAlertView+PL_Providence.m in Sources */,
+				9A87C76B2395121A00DE5B23 /* PL_ProvidenceZSHKLineView.m in Sources */,
+				9A7AFB1423978E7300C48D13 /* PL_ProvidenceDealDyTopView.m in Sources */,
+				9A84048A2395F3C200EC0B39 /* PL_ProvidenceHomeBaseView.m in Sources */,
+				9A87C7512395121A00DE5B23 /* NSDictionary+SSJNetWork.m in Sources */,
+				9A87C77B2395121A00DE5B23 /* PL_ProvidenceLineDataProcess.m in Sources */,
+				9A7AFB772397AEB600C48D13 /* PL_ProvidenceSettingCell.m in Sources */,
+				9A87C7992395167D00DE5B23 /* NSObject+PL_Providence.m in Sources */,
+				9A7AFB722397ADB500C48D13 /* PL_ProvidenceSettingNameVC.m in Sources */,
+				9A7AFACF23974A4300C48D13 /* PL_ProvidenceHomeReusableView.m in Sources */,
+				9A7AFB582397ABD900C48D13 /* PL_ProvidenceSettingAboutVC.m in Sources */,
+				9A87C7772395121A00DE5B23 /* PL_ProvidenceConstantDefinition.m in Sources */,
+				9A87C77A2395121A00DE5B23 /* PL_ProvidenceSimpleKLineVolView.m in Sources */,
+				9A7AFB872397B70600C48D13 /* PL_ProvidenceHttpRequest.m in Sources */,
+				9A87C76C2395121A00DE5B23 /* PL_ProvidenceLineMADrawLogic.m in Sources */,
+				9A87C7702395121A00DE5B23 /* PL_ProvidenceLineBGDrawLogic.m in Sources */,
+				9A7AFB3223979B6000C48D13 /* PL_ProvidenceHomeStockOptionTopView.m in Sources */,
+				9A87C7A22395167D00DE5B23 /* UIActionSheet+PL_Providence.m in Sources */,
+				9A7AFB2E23979B6000C48D13 /* PL_ProvidenceHomeFormHorView.m in Sources */,
+				9A87C7632395121A00DE5B23 /* DataCenter.m in Sources */,
+				9A87C6E82395121900DE5B23 /* PL_ProvidenceHomeTheNewVC.m in Sources */,
+				9A8404CA2396420000EC0B39 /* PL_ProvidenceHomeMenuCell.m in Sources */,
+				9A87C76D2395121A00DE5B23 /* PL_ProvidenceBaseDrawLogic.m in Sources */,
+				9A87C70B2395121A00DE5B23 /* PL_ProvidenceHomeMenuFuturesView.m in Sources */,
+				9A87C6F02395121A00DE5B23 /* PL_ProvidenceMarketLogic.m in Sources */,
+				9A87C7532395121A00DE5B23 /* SSJMemCacheDataCenter.m in Sources */,
+				9A87C7232395121A00DE5B23 /* PL_ProvidencePaperVC.m in Sources */,
+				9A87C73C2395121A00DE5B23 /* PL_ProvidenceRegisteredVC.m in Sources */,
+				9A8404922395F3C200EC0B39 /* PL_ProvidenceHomeStockView.m in Sources */,
+				9A8404B2239601E000EC0B39 /* PL_ProvidenceDealNameCell.m in Sources */,
+				9A87C7652395121A00DE5B23 /* PL_ProvidenceLineIndicatorLogic.m in Sources */,
+				9A87C7462395121A00DE5B23 /* PL_ProvidenceDataUsedEngine.m in Sources */,
+				9A7AFAFE23978D7100C48D13 /* PL_ProvidenceDealTodayTradeVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A87C53F2395113500DE5B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A87C5482395113500DE5B23 /* ProvidenceFuturesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A87C54A2395113500DE5B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A87C5532395113500DE5B23 /* ProvidenceFuturesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A87C5452395113500DE5B23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A87C5272395113100DE5B23 /* ProvidenceFutures */;
+			targetProxy = 9A87C5442395113500DE5B23 /* PBXContainerItemProxy */;
+		};
+		9A87C5502395113500DE5B23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A87C5272395113100DE5B23 /* ProvidenceFutures */;
+			targetProxy = 9A87C54F2395113500DE5B23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A87C5552395113500DE5B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A87C5562395113500DE5B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A87C5582395113500DE5B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F0248B81120A317D9E5BBA /* Pods-ProvidenceFutures.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				GCC_PREFIX_HEADER = "/Users/xiemin/Desktop/期货类型App/普罗期货/ProvidenceFutures/ProvidenceFutures/PL_ProvidenceHeader.pch";
+				INFOPLIST_FILE = ProvidenceFutures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morningcitystock.www;
+				PRODUCT_NAME = "富华期货";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A87C5592395113500DE5B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6F21E7C9112DF408A17B98 /* Pods-ProvidenceFutures.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				GCC_PREFIX_HEADER = "/Users/xiemin/Desktop/期货类型App/普罗期货/ProvidenceFutures/ProvidenceFutures/PL_ProvidenceHeader.pch";
+				INFOPLIST_FILE = ProvidenceFutures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morningcitystock.www;
+				PRODUCT_NAME = "富华期货";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9A87C55B2395113500DE5B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvidenceFuturesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qhwr.ProvidenceFuturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProvidenceFutures.app/ProvidenceFutures";
+			};
+			name = Debug;
+		};
+		9A87C55C2395113500DE5B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvidenceFuturesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qhwr.ProvidenceFuturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProvidenceFutures.app/ProvidenceFutures";
+			};
+			name = Release;
+		};
+		9A87C55E2395113500DE5B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvidenceFuturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qhwr.ProvidenceFuturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProvidenceFutures;
+			};
+			name = Debug;
+		};
+		9A87C55F2395113500DE5B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvidenceFuturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qhwr.ProvidenceFuturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProvidenceFutures;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A87C5232395113100DE5B23 /* Build configuration list for PBXProject "ProvidenceFutures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A87C5552395113500DE5B23 /* Debug */,
+				9A87C5562395113500DE5B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A87C5572395113500DE5B23 /* Build configuration list for PBXNativeTarget "ProvidenceFutures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A87C5582395113500DE5B23 /* Debug */,
+				9A87C5592395113500DE5B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A87C55A2395113500DE5B23 /* Build configuration list for PBXNativeTarget "ProvidenceFuturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A87C55B2395113500DE5B23 /* Debug */,
+				9A87C55C2395113500DE5B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A87C55D2395113500DE5B23 /* Build configuration list for PBXNativeTarget "ProvidenceFuturesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A87C55E2395113500DE5B23 /* Debug */,
+				9A87C55F2395113500DE5B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A87C5202395113100DE5B23 /* Project object */;
+}

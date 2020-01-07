@@ -1,0 +1,46 @@
+//
+//  PL_ProvidencePrefixHeader.pch
+//  EvianFutures-OC
+//
+//  //
+//
+//  //
+//
+//  Created by Journey on 2019/11/30.
+//
+// Journey on 2019/11/30.
+//
+//.
+//  Copyright © 2019 qhwr. All rights reserved.
+//
+
+#ifndef PL_ProvidencePrefixHeader_pch
+#define PL_ProvidencePrefixHeader_pch
+
+#import "UITextView+PL_Providence.h"
+#import "UIColor+PL_Providence.h"
+#import "PL_ProvidenceGlobalMacro.h"
+#import "PL_ProvidenceLoginManager.h"
+#import "UIView+PL_Providence.h"
+#import <Masonry/Masonry.h>
+#import "PL_ProvidenceHttpUrl.h"
+#import "NSString+PL_Providence.h"
+#import "PL_ProvidenceDateManager.h"
+#import "MBProgressHUD+PL_Providence.h"
+#import "UIActionSheet+PL_Providence.h"
+#import <MJExtension/MJExtension.h>
+#import "UIAlertView+PL_Providence.h"
+#import <MJRefresh/MJRefresh.h>
+#import <SVProgressHUD.h>
+#import "UIFont+PL_Providence.h"
+#import "NSObject+PL_Providence.h"
+#import "NSNumber+PL_Providence.h"
+#import "PL_ProvidenceDealManager.h"
+#import "PL_ProvidenceHttpRequest.h"
+#import "PL_ProvidenceDataManager.h"
+#import "SSJNetWork.h"
+#import  <AXWebViewController/AXWebViewController.h>
+#import "PL_ProvidenceDealDataManager.h"
+#import "PL_ProvidenceGlobalVariableDefine.h"
+
+#endif /* PL_ProvidencePrefixHeader_pch */

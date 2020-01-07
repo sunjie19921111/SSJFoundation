@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PL_ProvidenceSettingNameVC">
+            <connections>
+                <outlet property="saveButton" destination="h9Z-k1-bcR" id="7la-Q8-t3P"/>
+                <outlet property="textFiled" destination="sDd-Gn-ipy" id="uOE-D0-RR4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入昵称" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sDd-Gn-ipy">
+                    <rect key="frame" x="10" y="98" width="394" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="lv0-do-ACR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9Z-k1-bcR">
+                    <rect key="frame" x="10" y="218" width="394" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="lcY-yk-wyc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="保存">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="clickRightButton:" destination="-1" eventType="touchUpInside" id="Nes-21-EE3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="h9Z-k1-bcR" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="0iW-hZ-hQ3"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="h9Z-k1-bcR" secondAttribute="trailing" constant="10" id="7So-Av-HmN"/>
+                <constraint firstItem="h9Z-k1-bcR" firstAttribute="top" secondItem="sDd-Gn-ipy" secondAttribute="bottom" constant="40" id="Hs5-eW-2DF"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="sDd-Gn-ipy" secondAttribute="trailing" constant="10" id="X27-38-H6J"/>
+                <constraint firstItem="sDd-Gn-ipy" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="ZOq-SH-4Gd"/>
+                <constraint firstItem="sDd-Gn-ipy" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="10" id="ZWF-WY-4fl"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="137.68115942028987" y="154.01785714285714"/>
+        </view>
+    </objects>
+</document>

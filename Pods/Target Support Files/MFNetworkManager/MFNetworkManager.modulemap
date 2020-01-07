@@ -1,0 +1,6 @@
+framework module MFNetworkManager {
+  umbrella header "MFNetworkManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

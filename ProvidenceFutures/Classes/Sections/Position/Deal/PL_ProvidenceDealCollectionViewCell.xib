@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PL_ProvidenceDealCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="89" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="89" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名称/市值" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIN-7M-njH">
+                        <rect key="frame" x="0.0" y="15" width="89" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="xNy-hY-rOz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13898.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtF-e7-9vi">
+                        <rect key="frame" x="0.0" y="75" width="89" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="uOz-IZ-9HX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="深圳电A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wv7-Up-hay">
+                        <rect key="frame" x="0.0" y="45" width="89" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="O05-Zu-gJp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Wv7-Up-hay" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1nf-MP-NK5"/>
+                <constraint firstAttribute="trailing" secondItem="ZIN-7M-njH" secondAttribute="trailing" id="GD5-fZ-dew"/>
+                <constraint firstItem="ZIN-7M-njH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GwD-ta-xfy"/>
+                <constraint firstItem="mtF-e7-9vi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Jnm-lf-9bh"/>
+                <constraint firstItem="mtF-e7-9vi" firstAttribute="top" secondItem="Wv7-Up-hay" secondAttribute="bottom" constant="10" id="Zwg-1X-oYd"/>
+                <constraint firstAttribute="trailing" secondItem="mtF-e7-9vi" secondAttribute="trailing" id="iRi-kP-kqQ"/>
+                <constraint firstItem="ZIN-7M-njH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="kAZ-wn-olQ"/>
+                <constraint firstAttribute="trailing" secondItem="Wv7-Up-hay" secondAttribute="trailing" id="wAm-nm-lN7"/>
+                <constraint firstItem="Wv7-Up-hay" firstAttribute="top" secondItem="ZIN-7M-njH" secondAttribute="bottom" constant="10" id="yBh-WX-dkP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="89" height="93"/>
+            <connections>
+                <outlet property="desTitleLabel" destination="mtF-e7-9vi" id="bid-mE-d15"/>
+                <outlet property="mainTitleLabel" destination="ZIN-7M-njH" id="V6z-Yr-eDq"/>
+                <outlet property="subTitleLabel" destination="Wv7-Up-hay" id="uOp-XJ-5Ip"/>
+            </connections>
+            <point key="canvasLocation" x="5.5999999999999996" y="160.56971514242881"/>
+        </collectionViewCell>
+    </objects>
+</document>
